@@ -15,9 +15,10 @@ effect: {
   cone: 360
   length: 30
   baseLength: 0
-  sizeFrom: 4
+  sizeFrom: 1.1
   sizeTo: 0
   lightOpacity: 1
-  color: 7c7c7c
+  colorFrom: 7c7c7c
+  colorTo: 7c7c7c
 }
 color: 7c7c7c
