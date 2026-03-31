@@ -1,0 +1,14 @@
+name: broken
+localizedName: "[gray]Broken[]"
+damageMultiplier: 0.5
+healthMultiplier: 0.5
+speedMultiplier: 0.5
+reloadMultiplier: 0.5
+builSpeedMultiplier: 0.5
+dragMultiplier: 0.5
+
+intervalDamageTime: 72
+intervalDamage: 5
+
+effect: sapped
+color: gray
