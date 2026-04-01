@@ -4,6 +4,7 @@ category: power
 
 health: 1500
 crushDamageMultiplier: 1
+outputsPower: true
 conductivePower: true
 allowDiagonal: false
 emitLight: true
@@ -16,9 +17,10 @@ requirements: [
 
 drawer: [
   {
-    type: Draw
-    suffix: "-glow"
-    color: 9f9cff
+    type: DrawPower
+    suffix: "-power"
+    emptyLightColor: 9f9cff
+    fullLightColor: 9f9cff
     layer: 110
   }
 ]
