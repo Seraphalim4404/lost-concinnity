@@ -17,7 +17,7 @@ requirements: [
 drawer: [
   {
     type: DrawGlowRegion
-    suffix: "-glow"
+    suffix: "strand-glow"
     color: 9f9cff
     layer: 100
   }
