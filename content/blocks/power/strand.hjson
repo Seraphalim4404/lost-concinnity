@@ -4,8 +4,10 @@ category: power
 
 health: 1500
 crushDamageMultiplier: 1
+consumesPower: trye
 outputsPower: true
 conductivePower: true
+canOverdrive: false
 allowDiagonal: false
 emitLight: true
 lightColor: 9f9cff
