@@ -1,22 +1,25 @@
-type: BeamNode
+type: PowerNode
 size: 2
 category: power
-squareSprite: false
 
 health: 1500
-range: -1
-maxRange: -1
-powerCapacity: 100
+laserRange: 0
+maxNodes: 0
+autoLink: false
+drawRange: false
+configurable: false
 requirements: [
   copper/1
   lead/1
   surge-alloy/1
 ]
+
 drawer: [
   {
-    type: DrawRegion
-    suffix: -glow-connect
-    color: 9f9cff
+    type: DrawPower
+    suffix: "-glow-connect"
+    emptyLightColor: 9f9cff
+    fullLightColor: 9f9cff
     layer: 100
   }
 ]
