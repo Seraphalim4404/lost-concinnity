@@ -1,9 +1,19 @@
-
 damageMultiplier: 0.6
-speedMultiplier: 1.1
+speedMultiplier: 0.1
 reloadMultiplier: 1.1
-dragMultiplier: -1.5
 
+effect: {
+  type: ParticleEffect
+  particles: 4
+  cone: 360
+  length: -16
+  baseLength: 0
+  sizeFrom: 1.4
+  sizeTo: 0
+  lightOpacity: 1
+  colorFrom: 8250ff
+  colorTo: 8250ff
+}
 applyEffect: {
   type: MultiEffect
   effects: [
