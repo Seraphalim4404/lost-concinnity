@@ -1,6 +1,7 @@
 type: ShieldWall
 size: 1
 health: 70
+shieldRadius: -1
 shieldHealth: 230
 breakCooldown: 900
 hasPower: true
@@ -8,6 +9,10 @@ outputsPower: true
 conductivePower: true
 conveyorPlacement: true
 enableDrawStatus: false
+glowColor: 9f9cff
+consumes: {
+  power: 0.01666666667
+}
 requirements: [
   copper/1
   lead/1
