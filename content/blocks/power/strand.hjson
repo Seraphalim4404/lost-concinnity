@@ -1,14 +1,13 @@
-type: wall
+type: Battery
 size: 2
 category: power
 
 health: 1500
-crushDamageMultiplier: 1
 consumesPower: true
 outputsPower: true
 conductivePower: true
-canOverdrive: false
 allowDiagonal: false
+conveyorPlacement: true
 emitLight: true
 lightColor: 9f9cff
 requirements: [
