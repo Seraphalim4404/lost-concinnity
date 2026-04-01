@@ -1,12 +1,17 @@
-type: Battery
-size: 2
-category: power
+type: ArmoredConveyor
+health: 100
+hasPower: true
+outputsPower: true
+conductivePower: true
+liquidPressure: 0
+liquidCapacity: 0
 
-health: 1500
-consumePowerBuffered: 100
-conveyorPlacement: true
 requirements: [
   copper/1
   lead/1
   surge-alloy/1
 ]
+category: power
+acceptsItems: false
+instantTransfer: false
+solid: false
