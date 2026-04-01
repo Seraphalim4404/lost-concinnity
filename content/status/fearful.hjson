@@ -33,8 +33,8 @@ applyEffect: {
       type: WaveEffect
       lifetime: 45
       sizeFrom: 0
-      sizeTo: 16
-      strokeFrom: 1.25
+      sizeTo: 32
+      strokeFrom: 2.75
       strokeTo: 0
       sides: 4
       colorFrom: 8250ff
