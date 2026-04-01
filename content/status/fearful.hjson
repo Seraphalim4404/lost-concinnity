@@ -1,8 +1,8 @@
 name: fearful
 damageMultiplier: 0.6
-speedMultiplier: -1.5
+speedMultiplier: 1.1
 reloadMultiplier: 1.1
-dragMultiplier: 0.8
+dragMultiplier: -1.5
 
 applyEffect: {
   type: MultiEffect
