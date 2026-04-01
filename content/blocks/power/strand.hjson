@@ -16,10 +16,7 @@ requirements: [
 
 drawer: [
   {
-    type: DrawPower
+    type: DrawRegion
     suffix: "-glow-connect"
-    emptyLightColor: 9f9cff
-    fullLightColor: 9f9cff
-    layer: 100
   }
 ]
