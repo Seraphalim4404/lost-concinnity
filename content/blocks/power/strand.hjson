@@ -8,9 +8,6 @@ outputsPower: true
 conductivePower: true
 conveyorPlacement: true
 enableDrawStatus: false
-consumes: {
-  power: 0.05
-}
 requirements: [
   copper/1
   lead/1
