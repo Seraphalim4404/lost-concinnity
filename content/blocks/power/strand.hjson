@@ -10,7 +10,7 @@ drawRange: false
 requirements: [
   copper/1
   lead/1
-  surge/1
+  surge-alloy/1
 ]
 
 drawer: [
