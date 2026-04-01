@@ -1,4 +1,4 @@
-type: BeamNode
+type: PowerNode
 size: 2
 laserRange: 0
 maxNodes: 0
