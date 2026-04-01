@@ -1,4 +1,5 @@
 type: BeamNode
+size: 2
 laserRange: 0
 maxNodes: 0
 autoLink: false
