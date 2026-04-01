@@ -1,9 +1,18 @@
 type: PowerNode
 size: 2
+category: power
+
+health: 1500
 laserRange: 0
 maxNodes: 0
 autoLink: false
 drawRange: false
+requirements: [
+  copper/1
+  lead/1
+  surge/1
+]
+
 drawer: [
   {
     type: DrawGlowRegion
