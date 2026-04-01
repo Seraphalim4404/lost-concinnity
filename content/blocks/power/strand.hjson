@@ -3,9 +3,6 @@ size: 2
 category: power
 
 health: 1500
-consumesPower: true
-outputsPower: true
-conductivePower: true
 requirements: [
   copper/1
   lead/1
