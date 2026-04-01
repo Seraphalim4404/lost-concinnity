@@ -1,0 +1,11 @@
+color: 0a0a0a
+flammability: 0
+temperature: 0.06
+heatCapacity: 0
+viscosity: 0.96
+explosiveness: 0
+blockReactive: false
+moveThroughBlocks: true
+incinerable: false
+spreadTarget: water
+
