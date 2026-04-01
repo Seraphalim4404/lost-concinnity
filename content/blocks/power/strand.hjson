@@ -4,3 +4,10 @@ laserRange: 0
 maxNodes: 0
 autoLink: false
 drawRange: false
+drawer: [
+  {
+    type: DrawGlowRegion
+    suffix: -glow-connect
+    color: 9f9cff
+  }
+]
