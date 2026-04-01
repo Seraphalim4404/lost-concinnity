@@ -40,5 +40,6 @@ applyEffect: {
       colorTo: 000000
       interp: powIn
     }
-]
+  ]
+}
 color: 8250ff
