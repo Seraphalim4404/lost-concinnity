@@ -5,7 +5,9 @@ outputsPower: true
 conductivePower: true
 liquidPressure: 0
 liquidCapacity: 0
-
+consumes: {
+  powerBuffered: 2
+}
 requirements: [
   copper/1
   lead/1
