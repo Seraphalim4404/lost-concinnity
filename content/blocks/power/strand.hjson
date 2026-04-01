@@ -6,22 +6,8 @@ health: 1500
 consumesPower: true
 outputsPower: true
 conductivePower: true
-allowDiagonal: false
-conveyorPlacement: true
-emitLight: true
-lightColor: 9f9cff
 requirements: [
   copper/1
   lead/1
   surge-alloy/1
-]
-
-drawer: [
-  {
-    type: DrawPower
-    suffix: "-power"
-    emptyLightColor: 9f9cff
-    fullLightColor: 9f9cff
-    layer: 110
-  }
 ]
