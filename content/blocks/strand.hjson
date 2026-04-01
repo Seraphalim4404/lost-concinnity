@@ -1,0 +1,5 @@
+type: BeamNode
+laserRange: 0
+maxNodes: 0
+autoLink: false
+drawRange: false
