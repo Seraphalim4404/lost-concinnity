@@ -1,12 +1,12 @@
-type: ArmoredConveyor
+type: wall
 health: 100
+size: 1
 hasPower: true
 outputsPower: true
 conductivePower: true
-liquidPressure: 0
-liquidCapacity: 0
+conveyorPlacement: true
 consumes: {
-  powerBuffered: 2
+  power: 0.05
 }
 requirements: [
   copper/1
@@ -14,6 +14,3 @@ requirements: [
   surge-alloy/1
 ]
 category: power
-acceptsItems: false
-instantTransfer: false
-solid: false
