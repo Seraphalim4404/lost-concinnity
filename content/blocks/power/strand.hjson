@@ -4,7 +4,7 @@ category: power
 
 health: 1500
 crushDamageMultiplier: 1
-consumesPower: trye
+consumesPower: true
 outputsPower: true
 conductivePower: true
 canOverdrive: false
