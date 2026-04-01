@@ -8,20 +8,8 @@ explosiveness: 0
 blockReactive: false
 moveThroughBlocks: true
 incinerable: false
-spreadTarget: [
-  {
-    type: water
-  }
-  {
-    type: oil
-  }
-  {
-    type: slag
-  }
-  {
-    type: cryofluid
-  }  
-]
+spreadTarget: water
+removeScaling: 1
 
 colorFrom: 252525
 colorTo: 000000
