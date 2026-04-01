@@ -3,6 +3,8 @@ size: 2
 category: power
 
 health: 1500
+consumePowerBuffered: 100
+conveyorPlacement: true
 requirements: [
   copper/1
   lead/1
