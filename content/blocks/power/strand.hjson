@@ -6,6 +6,7 @@ health: 1500
 crushDamageMultiplier: 1
 conductivePower: true
 allowDiagonal: false
+emitLight: true
 glowColor: 9f9cff
 requirements: [
   copper/1
