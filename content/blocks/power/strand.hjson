@@ -16,7 +16,8 @@ requirements: [
 
 drawer: [
   {
-    type: DrawRegion
-    suffix: "-glow-connect"
+    type: DrawGlowRegion
+    suffix: "-glow"
+    color: 9f9cff
   }
 ]
