@@ -1,13 +1,12 @@
-type: PowerNode
+type: wall
 size: 2
 category: power
 
 health: 1500
-laserRange: -1
-maxNodes: -1
-autoLink: false
-drawRange: false
-configurable: false
+crushDamageMultiplier: 1
+conductivePower: true
+allowDiagonal: false
+glowColor: 9f9cff
 requirements: [
   copper/1
   lead/1
