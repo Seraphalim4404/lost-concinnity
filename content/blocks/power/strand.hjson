@@ -19,5 +19,6 @@ drawer: [
     type: DrawGlowRegion
     suffix: "-glow"
     color: 9f9cff
+    layer: 100
   }
 ]
