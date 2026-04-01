@@ -7,7 +7,7 @@ consumesPower: true
 outputsPower: true
 conductivePower: true
 allowDiagonal: false
-update: true
+conveyorPlacement: true
 emitLight: true
 lightColor: 9f9cff
 requirements: [
