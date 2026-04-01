@@ -3,8 +3,8 @@ size: 2
 category: power
 
 health: 1500
-laserRange: 0
-maxNodes: 0
+laserRange: -1
+maxNodes: -1
 autoLink: false
 drawRange: false
 configurable: false
