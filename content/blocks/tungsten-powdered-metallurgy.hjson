@@ -1,0 +1,21 @@
+type: GenericCrafter
+squareSprite: false
+health: 2200
+itemCapacity: 40
+liquidCapacity: 1500
+craftTime: 1200
+consumes: {
+  power: 25
+  items: {
+    tungsten-powder/20
+  }
+  liquid: {
+    liquid: scoria
+    amount: 2.5
+  }
+}
+outputItem: tungsten-cube
+category: crafting
+requirements: [
+  copper/1
+]
