@@ -4,6 +4,10 @@ isLiquid: true
 liquidDrop: caeruleum
 liquidMultiplier: 0.25
 status: none
-speedMultiplier: 0.7
+speedMultiplier: 0.5
 cacheLayer: slag
 supportsOverlay: true
+
+emitLight: true
+lightRadius: 68
+lightColor: c0cefb
