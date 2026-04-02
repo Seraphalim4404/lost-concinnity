@@ -7,11 +7,12 @@ viscosity: 0.9
 explosiveness: 0
 blockReactive: false
 moveThroughBlocks: true
-incinerable: tru
+incinerable: true
 spreadTarget: tenebreon
 removeScaling: 1
 
 lightColor: c0ceff
+gasColor: c0ceff
 
 colorFrom: a4b5e8
 colorTo: cad2eb
