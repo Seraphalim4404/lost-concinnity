@@ -6,9 +6,9 @@ liquidCapacity: 1500
 craftTime: 1200
 consumes: {
   power: 25
-  items: {
+  items: [
     tungsten-powder/20
-  }
+  ]
   liquid: {
     liquid: caeruleum
     amount: 2.5
