@@ -5,7 +5,7 @@ liquidDrop: caeruleum
 liquidMultiplier: 0.25
 status: none
 speedMultiplier: 0.5
-cacheLayer: slag
+cacheLayer: water
 drownTime: 600
 supportsOverlay: true
 
