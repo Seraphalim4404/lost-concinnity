@@ -1,0 +1,9 @@
+type: Floor
+variants: 0
+isLiquid: true
+liquidDrop: caeruleum
+liquidMultiplier: 0.25
+status: none
+speedMultiplier: 0.7
+cacheLayer: slag
+supportsOverlay: true
