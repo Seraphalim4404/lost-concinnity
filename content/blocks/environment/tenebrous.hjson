@@ -4,5 +4,5 @@ isLiquid: true
 liquidDrop: tenebreon
 liquidMultiplier: 0.15
 status: none
-speedMultiplier: 0.8
+speedMultiplier: 0.7
 cacheLayer: water
