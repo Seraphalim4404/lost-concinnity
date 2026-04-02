@@ -29,6 +29,10 @@ drawer: {
     {
       type: DrawLiquidTile
       drawLiquid: caeruleum
+      padLeft: 6
+      padRight: 6
+      padTop: 6
+      padBottom: 6
       drawLiquidLight: true
     }
     {
