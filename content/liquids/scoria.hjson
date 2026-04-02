@@ -1,0 +1,17 @@
+type: CellLiquid
+color: a8b8ec
+flammability: 0
+temperature: 1.15
+heatCapacity: 0.5
+viscosity: 0.9
+explosiveness: 0
+blockReactive: false
+moveThroughBlocks: true
+incinerable: tru
+spreadTarget: tenebreon
+removeScaling: 1
+
+lightColor: c0ceff
+
+colorFrom: a4b5e8
+colorTo: cad2eb
