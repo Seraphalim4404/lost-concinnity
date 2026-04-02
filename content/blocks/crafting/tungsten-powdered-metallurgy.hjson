@@ -19,6 +19,20 @@ outputItem: {
   item: tungsten-cube
   amount: 1
 }
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawLiquidTile
+      padding: 4
+      drawLiquidLight: true
+    }
+  ]
+}
 category: crafting
 requirements: [
   copper/1
