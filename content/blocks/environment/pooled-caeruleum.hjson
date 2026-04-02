@@ -6,8 +6,11 @@ liquidMultiplier: 0.25
 status: none
 speedMultiplier: 0.5
 cacheLayer: slag
+drownTime: 600
 supportsOverlay: true
 
 emitLight: true
 lightRadius: 68
-lightColor: c0cefb
+lightColor: c0ceff
+obstructsLight: true
+forceDrawLight: true
