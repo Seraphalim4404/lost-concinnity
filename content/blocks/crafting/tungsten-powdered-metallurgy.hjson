@@ -68,7 +68,7 @@ drawer: {
     }
   ]
 }
-craftEffect: [
+updateEffect: [
   {
     type: ParticleEffect
     particles: 2
