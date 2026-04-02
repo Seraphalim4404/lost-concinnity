@@ -2,7 +2,7 @@ type: Floor
 variants: 0
 isLiquid: true
 liquidDrop: tenebreon
-liquidMultiplier: 2
+liquidMultiplier: 0.15
 status: none
 speedMultiplier: 0.8
 cacheLayer: water
