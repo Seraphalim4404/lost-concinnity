@@ -35,6 +35,9 @@ drawer: {
       padRight: 18
       drawLiquidLight: true
     }
+    {
+      type: DrawDefault
+    }
   ]
 }
 category: crafting
