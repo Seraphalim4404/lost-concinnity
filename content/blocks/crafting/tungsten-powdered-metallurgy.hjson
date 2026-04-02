@@ -14,7 +14,10 @@ consumes: {
     amount: 2.5
   }
 }
-outputItem: tungsten-cube
+outputItem: {
+  item: tungsten-cube
+  amount: 1
+}
 category: crafting
 requirements: [
   copper/1
