@@ -10,7 +10,6 @@ moveThroughBlocks: true
 incinerable: true
 spreadTarget: tenebreon
 removeScaling: 0.1
-makeFire: false
 
 lightColor: c0ceff
 gasColor: c0ceff
