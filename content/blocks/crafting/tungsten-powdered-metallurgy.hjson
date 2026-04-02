@@ -10,7 +10,7 @@ consumes: {
     tungsten-powder/20
   }
   liquid: {
-    liquid: scoria
+    liquid: caeruleum
     amount: 2.5
   }
 }
