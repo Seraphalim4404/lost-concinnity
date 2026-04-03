@@ -8,9 +8,8 @@ outputsPower: true
 conductivePower: true
 enableDrawStatus: false
 glowColor: 9f9cff
-layer: 0
 consumes: {
-  power: 0.0016666666666667
+  power: 0.016666666666667
   powerBuffered: 1
 }
 requirements: [
