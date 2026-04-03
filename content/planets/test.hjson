@@ -11,14 +11,17 @@ bloom: true
 lightColor: 78acb1
 iconColor: 6e6e6e
 atmosphereColor: 777777
-unlockedOnLand: {
+unlockedOnLand: [
+  //units
   viewer,
+  //core
   remnant,
+  //items
   lycite,
   myacine,
   lead,
   adhite
-}
+]
 mesh: [
 	{
 	//sand/desert
