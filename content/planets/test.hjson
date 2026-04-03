@@ -18,7 +18,7 @@ sectorSize: 2
 //terrain generation seed the planet uses for its sectors
 sectorSeed: -4
 //sector to start on - probably make this a preset sector
-startSector: 0
+startSector: 10
 //icon colour
 iconColor: 6e6e6e
 //radius from the planet's "surface" that the atmosphere blur begins
@@ -249,10 +249,3 @@ cloudMesh: [
     thresh: 0.4
   }
 ]
-//research
-research: {
-  parent: 0b-begin
-  objectives: [
-    interplanetary-accelerator
-  ]
-}
