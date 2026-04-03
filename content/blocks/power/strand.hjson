@@ -6,9 +6,9 @@ breakCooldown: 900
 hasPower: true
 outputsPower: true
 conductivePower: true
-conveyorPlacement: true
 enableDrawStatus: false
 glowColor: 9f9cff
+layer: 0
 consumes: {
   power: 0.01666666667
 }
