@@ -71,8 +71,16 @@ drawer: {
       flameColor: c0ceff
       midColor: c0ceff
       flameRad: 0
-      paricles: 5
+      paricles: 7
       particleLife: 30
+    }
+    {
+      type: DrawCrucibleFlame
+      flameColor: 616161
+      midColor: 616161
+      flameRad: 0
+      paricles: 6
+      particleLife: 45
     }
   ]
 }
