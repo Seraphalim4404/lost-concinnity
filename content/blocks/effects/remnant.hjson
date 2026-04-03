@@ -1,0 +1,23 @@
+type: CoreBlock
+enableDrawStatus: false
+squareSprite: false
+customShadow: false
+health: 3000
+itemCapacity: 1500
+size: 5
+category: effect
+unitType: viewer
+unitCapModifier: 6
+hasPower: true
+conductivePower: true
+consumesPower: true
+outputsPower: true
+consumes: {
+  powerBuffered: 300
+}
+requirements: [
+  lycite/1000
+  myacine/500
+  adhite/250
+  lead/500
+]
