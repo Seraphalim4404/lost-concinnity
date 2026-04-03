@@ -2,7 +2,6 @@ explosiveness: 0
 flammability: 0
 radioactivity: 0.6
 charge: 0
-hardness: 5
 cost: 1200
 
 color: 060606
