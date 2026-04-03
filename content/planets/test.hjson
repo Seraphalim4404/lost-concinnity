@@ -15,7 +15,7 @@ atmosphereRadOut: 0.35
 //colour of the atmosphere
 atmosphereColor: 777777
 //orbit radius, measured in units i do not know
-orbitRadius: 12
+orbitRadius: 3
 //angle of the starting position of the orbit, so that all planets are not in the same line 
 orbitOffset: 140
 //time taken to complete one full orbit, in seconds
