@@ -10,8 +10,8 @@ enableDrawStatus: false
 glowColor: 9f9cff
 layer: 0
 consumes: {
-  power: 0
-  powerBuffered: 2
+  power: 0.0016666666666667
+  powerBuffered: 1
 }
 requirements: [
   copper/1
