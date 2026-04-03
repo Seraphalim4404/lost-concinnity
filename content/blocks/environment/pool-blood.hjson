@@ -1,0 +1,8 @@
+type: Floor
+variants: 0
+isLiquid: true
+liquidDrop: bio-blood
+liquidMultiplier: 1
+status: none
+speedMultiplier: 0.4
+cacheLayer: water
