@@ -14,13 +14,13 @@ atmosphereColor: 777777
 
 unlockedOnLand: {
   //units
-  viewer,
+  viewer
   //core
-  remnant,
+  remnant
   //items
-  lycite,
-  myacine,
-  lead,
+  lycite
+  myacine
+  lead
   adhite
 }
 mesh: [
