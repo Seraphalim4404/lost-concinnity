@@ -28,7 +28,7 @@ accessible: true
 //whether to allow launching to numbered sectors - set to false for erekir sector behaviour
 allowLaunchToNumbered: false
 //planet environmental factors
-defaultEnv: 193
+defaultEnv: 0
 //content unlocked when landing on this planet
 unlockedOnLand: [
   //units
