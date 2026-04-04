@@ -17,10 +17,10 @@ consumes: {
   powerBuffered: 2500
 }
 research: {
-	planet: test
+	planet: umbraline
 	root: true
 	requiresUnlock: false
-	name: "[#616161]Lost"
+	name: "[#616161]Umbraline"
 }
 alwaysUnlocked: true
 requirements: [
