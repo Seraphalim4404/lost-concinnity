@@ -54,3 +54,4 @@ applyEffect: {
   ]
 }
 color: 8250ff
+shownPlanets: [umbraline]
