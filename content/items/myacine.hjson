@@ -6,3 +6,7 @@ hardness: 1
 cost: 1
 
 color: f4d27d
+alwaysUnlocked: true
+research: {
+  parent: lycite
+}
