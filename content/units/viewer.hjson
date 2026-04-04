@@ -1,5 +1,6 @@
 type: flying 
 flying: true
+alwaysUnlocked: true
 isEnemy: false
 speed: 2
 rotateSpeed: 4
@@ -11,7 +12,7 @@ hitSize: 10
 health: 300
 mineRange: 64
 mineSpeed: 1
-mineTier: 2
+mineTier: 1
 mineWalls: true
 buildRange: 200
 buildSpeed: 0.5
@@ -22,4 +23,4 @@ faceTarget: false
 strafePenalty: 0.35
 
 lightColor: 9e3f4a
-lightRadius: 120
+lightRadius: 160
