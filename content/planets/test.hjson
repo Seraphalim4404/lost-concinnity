@@ -238,10 +238,4 @@ cloudMesh: [
     thresh: 0.4
   }
 ]
-research: {
-   parent: remnant
-	planet: test
-	root: true
-	requiresUnlock: false
-	name: "test"
-}
+
