@@ -10,3 +10,4 @@ alwaysUnlocked: true
 research: {
   parent: remnant
 }
+shownPlanets: [umbraline]
