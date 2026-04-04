@@ -44,7 +44,7 @@ unlockedOnLand: [
   adhite
 ]
 //planet icon 
-icon: terrain
+icon: planet
 //various rules
 allowLaunchSchematics: false
 allowLaunchLoadout: false
