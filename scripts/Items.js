@@ -3,3 +3,6 @@ const esther = extend(Item, "esther", {
     flammability: 1
     color: Color.valueOf("b2c5d1")
 });
+module.exports = {
+    esther: esther
+}
