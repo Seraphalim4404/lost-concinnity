@@ -24,3 +24,5 @@ strafePenalty: 0.35
 
 lightColor: 9e3f4a
 lightRadius: 160
+
+shownPlanets: [umbraline]
