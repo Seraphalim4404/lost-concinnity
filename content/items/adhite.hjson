@@ -6,7 +6,7 @@ hardness: 2
 cost: 2
 
 color: 830f0b
-
+alwaysUnlocked: true
 research: {
   parent: myacine
 }
