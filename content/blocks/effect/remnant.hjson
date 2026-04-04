@@ -29,3 +29,4 @@ requirements: [
   adhite/250
   lead/500
 ]
+shownPlanets: [umbraline]
