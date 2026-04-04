@@ -9,6 +9,6 @@ color: 060606
 research: {
   planet: umbraline
   root: true
-  
+  requiresUnlock: false
   name: "Umbral Tree"
 }
