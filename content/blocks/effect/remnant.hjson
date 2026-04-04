@@ -14,7 +14,7 @@ conductivePower: true
 consumesPower: true
 outputsPower: true
 consumes: {
-  powerBuffered: 300
+  powerBuffered: 2500
 }
 research: {
 	planet: test
