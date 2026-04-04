@@ -7,5 +7,7 @@ cost: 1
 
 color: f4d27d
 alwaysUnlocked: true
-research: lycite
+research: {
+  parent: lycite
+}
 shownPlanets: [umbraline]
