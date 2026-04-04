@@ -1,4 +1,3 @@
-alwaysUnlocked: true
-resesrch: {
+research: {
   parent: myacine
 }
