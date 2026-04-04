@@ -1,4 +1,4 @@
-const mod = Vars.mods.locateMod("Lost");
+const mod = Vars.mods.locateMod("lost-concinnity");
 mod.meta.displayName = "[#8ca4f5]Lost";
 mod.meta.description = "something code borrowed from sapphirium.";
 mod.meta.author = "???";
