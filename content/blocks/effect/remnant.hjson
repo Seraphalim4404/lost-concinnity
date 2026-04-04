@@ -22,6 +22,7 @@ research: {
 	requiresUnlock: false
 	name: "test"
 }
+alwaysUnlocked: true
 requirements: [
   lycite/1000
   myacine/500
