@@ -5,3 +5,10 @@ charge: 0
 cost: 1200
 
 color: 060606
+
+research: {
+  planet: umbraline
+  root: true
+  
+  name: "Umbral Tree"
+}
