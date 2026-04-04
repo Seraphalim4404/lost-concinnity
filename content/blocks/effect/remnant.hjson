@@ -20,7 +20,7 @@ research: {
 	planet: test
 	root: true
 	requiresUnlock: false
-	name: "test"
+	name: "[#616161]Lost"
 }
 alwaysUnlocked: true
 requirements: [
