@@ -1,4 +1,5 @@
 type: CoreBlock
+isFirstTier: true
 enableDrawStatus: false
 squareSprite: false
 customShadow: false
@@ -14,6 +15,12 @@ consumesPower: true
 outputsPower: true
 consumes: {
   powerBuffered: 300
+}
+research: {
+	planet: test
+	root: true
+	requiresUnlock: false
+	name: "test"
 }
 requirements: [
   lycite/1000
