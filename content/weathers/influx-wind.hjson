@@ -1,6 +1,6 @@
 type: ParticleWeather
 useWindVector: true
-color: 333333
+color: 232323
 noiseColor: 4a4a4a
 drawNoise: true
 particleRegion: particle
@@ -10,7 +10,7 @@ sizeMax: 6
 sizeMin: 1
 minAlpha: 0.7
 maxAlpha: 0.9
-density: 3600
-baseSpeed: 2.5
+density: 2500
+baseSpeed: 1.25
 force: 0.8
 noisePath: noiseAlpha
