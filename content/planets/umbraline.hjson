@@ -168,7 +168,7 @@ mesh: [
     divisions: 6
     seed: -5
     radius: 0.818
-    color1: c1c4cb
+    color1: e9e9e9
     color2: 525252
     octaves: 4.6
     persistence: 0.9
@@ -184,8 +184,8 @@ mesh: [
     divisions: 6
     seed: -5
     radius: 0.721
-    color1: d1efff
-    color2: d1efff
+    color1: 666666
+    color2: 666666
     octaves: 4.6
     persistence: 0.9
     scale: 0.7
@@ -207,9 +207,9 @@ cloudMesh: [
     //this radius value is based on the planet "surface", not the "core" of the planet, unlike noise meshes
     radius: 0.1
     //cloud colour
-    color: e8effa88
+    color: 4c4c4c
     //more explodey values, they're even more sensitive here
-    octaves: 3
+    octaves: 4
     persistence: 0.3
     scl: 1
     thresh: 0.43
@@ -220,7 +220,7 @@ cloudMesh: [
     speed: 2
     divisions: 6
     radius: 0.11
-    color: e8effabb
+    color: 787878
     octaves: 2
     persistence: 0.6
     scl: 0.9
@@ -231,7 +231,7 @@ cloudMesh: [
     speed: -2
     divisions: 5
     radius: 0.0372
-    color: 53cfc4
+    color: a0a0a0
     octaves: 0.4
     persistence: 0.2
     scl: 0.2
