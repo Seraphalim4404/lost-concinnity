@@ -11,7 +11,7 @@ sizeMax: 6
 sizeMin: 1
 minAlpha: 0.7
 maxAlpha: 0.9
-density: 2200
+density: 2500
 baseSpeed: 0.9
 force: 0.8
 noisePath: noiseAlpha
