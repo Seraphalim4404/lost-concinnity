@@ -1,17 +1,23 @@
-type: ShieldWall
+type: Battery
 size: 1
-health: 70
-shieldHealth: 230
-breakCooldown: 900
-hasPower: true
-outputsPower: true
+health: 300
 conductivePower: true
 enableDrawStatus: false
 glowColor: 9f9cff
 consumes: {
-  power: 0.016666666666667
-  powerBuffered: 1
+  powerBuffered: 5
 }
+drawer: [
+  {
+  }
+  {
+    type: DrawGlowRegion
+    color: 9f9cff
+    alpha: 1
+    glowScale: 20
+    glowIntensity: 0.5
+  }
+]
 requirements: [
   copper/1
   lead/1
