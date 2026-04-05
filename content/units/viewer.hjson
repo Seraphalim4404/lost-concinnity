@@ -2,7 +2,7 @@ type: flying
 flying: true
 alwaysUnlocked: true
 isEnemy: false
-speed: 2
+speed: 3.5
 rotateSpeed: 4
 drag: 0.06
 accel: 0.1
@@ -14,7 +14,7 @@ mineRange: 64
 mineSpeed: 1
 mineTier: 1
 mineWalls: true
-buildRange: 200
+buildRange: 320
 buildSpeed: 0.5
 coreUnitDock: true
 shadowElevationScl: 3.2
@@ -22,7 +22,7 @@ canAttack: false
 faceTarget: false
 strafePenalty: 0.35
 
-lightColor: 9e3f4a
-lightRadius: 160
+lightColor: d5b2b2
+lightRadius: 208
 
 shownPlanets: [umbraline]
