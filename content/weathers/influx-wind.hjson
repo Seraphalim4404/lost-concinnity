@@ -1,15 +1,16 @@
 type: ParticleWeather
 useWindVector: true
 color: cec9eb
-      noiseColor: cec9eb
-      drawNoise: true
-      particleRegion: particle
-      drawParticles: true
-      opacityMultiplier: 0.5
-      sizeMax: 7
-      sizeMin: 3
-      minAlpha: 0.5
-      maxAlpha: 0.9
-      density: 5500
-      baseSpeed: 9
-      force: 0.8
+noiseColor: cec9eb
+drawNoise: true
+particleRegion: particle
+drawParticles: true
+opacityMultiplier: 0.5
+sizeMax: 6
+sizeMin: 1
+minAlpha: 0.5
+maxAlpha: 0.9
+density: 5500
+baseSpeed: 8
+force: 0.8
+noisePath: fog
