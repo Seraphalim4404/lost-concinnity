@@ -1,0 +1,46 @@
+intervalDamageTime: 300
+damage: 6666666666
+intervalDamagePierce: true
+  
+effect: {
+  type: ParticleEffect
+  particles: 8
+  cone: 360
+  length: -32
+  baseLength: 0
+  sizeFrom: 1.4
+  sizeTo: 0
+  lightOpacity: 1
+  colorFrom: 8c0800
+  colorTo: 8c0800
+}
+applyEffect: {
+  type: MultiEffect
+  effects: [
+    {
+      type: WaveEffect
+      lifetime: 45
+      sizeFrom: 48
+      sizeTo: 56
+      strokeFrom: 2.75
+      strokeTo: 0
+      colorFrom: 8c0800
+      colorTo: 000000
+      interp: pow2Out
+    }
+    {
+      type: WaveEffect
+      lifetime: 45
+      sizeFrom: 48
+      sizeTo: 0
+      strokeFrom: 2.75
+      strokeTo: 0
+      colorFrom: 8c0800
+      colorTo: 000000
+      interp: pow2In
+    }
+  ]
+}
+color: 8c0800
+
+shownPlanets: [umbraline]
