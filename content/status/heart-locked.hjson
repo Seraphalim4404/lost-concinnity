@@ -1,5 +1,5 @@
 intervalDamageTime: 300
-damage: 6666666666
+intervalDamage: 6666666666
 intervalDamagePierce: true
 
 permanent: true
