@@ -135,7 +135,7 @@ mesh: [
     type: NoiseMesh
     divisions: 6
     seed: -5
-    radius: 0.945
+    radius: 1.233
     color1: 787878
     color2: 8c8c8c
     octaves: 4.6
@@ -209,7 +209,7 @@ cloudMesh: [
     //cloud colour
     color: 4c4c4c
     //more explodey values, they're even more sensitive here
-    octaves: 4
+    octaves: 3
     persistence: 0.3
     scl: 1
     thresh: 0.43
@@ -221,7 +221,7 @@ cloudMesh: [
     divisions: 6
     radius: 0.11
     color: 787878
-    octaves: 2
+    octaves: 1
     persistence: 0.6
     scl: 0.9
     thresh: 0.4
