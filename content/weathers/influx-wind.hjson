@@ -1,8 +1,8 @@
 type: ParticleWeather
-xspeed: -1.25
+xspeed: -0.9
 yspeed: 0
 color: 232323
-noiseColor: 4a4a4a
+noiseColor: 303030
 drawNoise: true
 particleRegion: particle
 drawParticles: true
@@ -11,7 +11,7 @@ sizeMax: 6
 sizeMin: 1
 minAlpha: 0.7
 maxAlpha: 0.9
-density: 2500
-baseSpeed: 1.25
+density: 2200
+baseSpeed: 0.9
 force: 0.8
 noisePath: noiseAlpha
