@@ -46,7 +46,11 @@ unlockedOnLand: [
 //planet icon 
 icon: planet
 //various rules
-pauseDisabled: true
+campaignRuleDefaults: {
+    fog: true
+    showSpawns: false
+    pauseDisabled: true
+}
 allowLaunchSchematics: false
 allowLaunchLoadout: false
 allowSectorInvasion: false
