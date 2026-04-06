@@ -46,8 +46,9 @@ unlockedOnLand: [
 //planet icon 
 icon: planet
 //various rules
-rules: {
+rules.+: {
     pauseDisabled: true
+    planets: [umbraline]
 }
 allowLaunchSchematics: false
 allowLaunchLoadout: false
