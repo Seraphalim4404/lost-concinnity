@@ -47,8 +47,8 @@ unlockedOnLand: [
 icon: planet
 //various rules
 rules.+: {
-    pauseDisabled: true
-    planets: [umbraline]
+    fog: true
+    lighting: true
 }
 allowLaunchSchematics: false
 allowLaunchLoadout: false
