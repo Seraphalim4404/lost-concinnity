@@ -47,8 +47,6 @@ unlockedOnLand: [
 icon: planet
 //various rules
 rules: {
-    fog: true
-    showSpawns: false
     pauseDisabled: true
 }
 allowLaunchSchematics: false
