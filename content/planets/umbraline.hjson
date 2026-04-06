@@ -56,7 +56,7 @@ allowLaunchLoadout: false
 allowSectorInvasion: false
 clearSectorOnLose: true
 prebuildBase: true
-allowWaves: false
+allowWaves: true
 allowLaunchToNumbered: true
 enemyBuildSpeedMultiplier: 1
 //default core to launch with
