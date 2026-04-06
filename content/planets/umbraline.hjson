@@ -46,7 +46,7 @@ unlockedOnLand: [
 //planet icon 
 icon: planet
 //various rules
-campaignRules: {
+rules: {
     fog: true
     showSpawns: false
     pauseDisabled: true
