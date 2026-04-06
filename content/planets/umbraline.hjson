@@ -46,6 +46,7 @@ unlockedOnLand: [
 //planet icon 
 icon: planet
 //various rules
+pauseDisabled: true
 allowLaunchSchematics: false
 allowLaunchLoadout: false
 allowSectorInvasion: false
