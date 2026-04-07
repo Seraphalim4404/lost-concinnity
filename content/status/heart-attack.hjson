@@ -44,10 +44,10 @@ applyEffect: {
     {
       type: SoundEffect
       sound: heartbeat-dead
-      minPitch: 1.1
-      maxPitch: 1.2
-      minVolume: 2
-      maxVolume: 2.2
+      minPitch: 1
+      maxPitch: 1
+      minVolume: 4
+      maxVolume: 4
       effect: none
     }
   ]
