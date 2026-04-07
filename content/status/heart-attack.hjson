@@ -41,6 +41,15 @@ applyEffect: {
       colorTo: 000000
       interp: pow2In
     }
+    {
+      type: SoundEffect
+      sound: heartbeat-dead
+      minPitch: 1.1
+      maxPitch: 1.2
+      minVolume: 2
+      maxVolume: 2.2
+      effect: none
+    }
   ]
 }
 color: 8c0800
