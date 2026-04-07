@@ -6,6 +6,7 @@ cost: 1800
 
 color: 7d2a29
 
+alwaysUnlocked: true
 research: {
   planet: umbraline
   root: true
