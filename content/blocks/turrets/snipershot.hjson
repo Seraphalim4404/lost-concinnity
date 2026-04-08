@@ -15,7 +15,7 @@ shootCone: 1
 reload: 180
 recoil: 2
 shootType: {
-  type: BulletType
+  type: BasicBulletType
   sprite: bullet
   backSprite: bullet-back
   height: 32
@@ -46,6 +46,8 @@ shootType: {
     lifetime: 1
 
     createChance: 0.25
+
+    hitEffect: scatheLight
   }
 }
 
