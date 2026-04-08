@@ -40,7 +40,7 @@ shootType: {
     type: BulletType
     height: 0
     width: 0
-    hitSize: 12
+    hitSize: 24
     damage: 285
     speed: 0
     lifetime: 1
