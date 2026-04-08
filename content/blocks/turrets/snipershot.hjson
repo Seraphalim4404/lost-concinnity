@@ -4,13 +4,13 @@ health: 1300
 armor: 12
 rotateSpeed: 1
 range: 560
-minRange: 80
-drawMinRange: true
 shake: 2
 trackingRange: 680
 liquidCapacity: 500
 drawLiquidLight: true
-
+consumes: {
+  power: 2
+}
 shootCone: 1
 reload: 180
 recoil: 2
@@ -47,7 +47,8 @@ shootType: {
 
     createChance: 0.25
 
-    hitEffect: scatheLight
+    status: sniped
+    statusDuration: 180
   }
 }
 
