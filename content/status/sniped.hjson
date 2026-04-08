@@ -20,7 +20,7 @@ applyEffect: {
     {
 	  type: ParticleEffect
 	  lifetime: 90
-	  region: sniped
+	  region: lost-sniped
 	  sizeFrom: 2
 	  sizeTo: 12
 	  colorFrom: ffffff
