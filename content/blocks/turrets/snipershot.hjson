@@ -44,3 +44,11 @@ shootType: {
     createChance: 0.25
   }
 }
+
+requirements: [
+  myacine/100
+  adhite/250
+  pure-lead/100
+  selvener/50
+]
+category: turret
