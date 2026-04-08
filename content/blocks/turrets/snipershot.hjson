@@ -16,6 +16,8 @@ reload: 180
 recoil: 2
 shootType: {
   type: BulletType
+  sprite: bullet
+  backSprite: bullet-back
   height: 32
   width: 12
   hitSize: 12
