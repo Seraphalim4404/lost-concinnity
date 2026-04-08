@@ -1,0 +1,21 @@
+type: PowerTurret
+size: 4
+health: 1300
+armor: 12
+rotateSpeed: 1
+range: 56
+shake: 2
+trackingRange: 680
+liquidCapacity: 500
+drawLiquidLight: true
+
+shootCone: 1
+reload: 180
+recoil: 2
+shootType: {
+  type: BulletType
+  height: 32
+  width: 12
+  hitSize: 12
+  damage: 285 * 2
+}
