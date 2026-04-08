@@ -17,5 +17,30 @@ shootType: {
   height: 32
   width: 12
   hitSize: 12
-  damage: 285 * 2
+  damage: 285
+  speed: 11
+  lifetime: 55
+  shrinkY: 0
+
+  fragOnDespawn: false
+
+  fragBullets: 1
+  fragRandomSpread: 0
+  fragLifeMin: 1
+  fragLifeMax: 1
+  fragVelocityMin: 1
+  fragVelocityMax: 1
+  fragOffsetMin: 0
+  fragOffsetMax: 0
+  fragBullet: {
+    type: BulletType
+    height: 0
+    width: 0
+    hitSize: 12
+    damage: 285
+    speed: 0
+    lifetime: 1
+
+    createChance: 0.25
+  }
 }
