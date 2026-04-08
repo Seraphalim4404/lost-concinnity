@@ -1,0 +1,13 @@
+explosiveness: 0
+flammability: 0
+radioactivity: 0
+charge: 0
+hardness: 1
+cost: 1
+
+color: a89a73
+alwaysUnlocked: true
+research: {
+  parent: myacine
+}
+shownPlanets: [umbraline]
