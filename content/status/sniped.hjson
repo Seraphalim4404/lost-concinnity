@@ -1,6 +1,6 @@
 healthMultiplier: 0.8
 
-effectChance: 0.5
+effectChance: 0.05
 effect: {
   type: ExplosionEffect            
   lifetime: 45
