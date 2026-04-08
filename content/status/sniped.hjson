@@ -1,0 +1,48 @@
+healthMultiplier: 0.8
+
+effectChance: 0.5
+effect: {
+  type: ExplosionEffect            
+  lifetime: 45
+  waveStroke: 0
+  sparkColor: ffcb77
+  waveRad: 0
+  smokeSize: 0
+  smokeSizeBase: 0
+  sparks: 7
+  sparkRad: 4
+  sparkLen: 7
+  sparkStroke: 0.95
+}
+applyEffect: {
+  type: MultiEffect
+  effects: [
+    {
+			type: ParticleEffect
+			lifetime: 90
+			region: sniped
+			sizeFrom: 2
+			sizeTo: 12
+			colorFrom: ffffff
+			colorTo: ffcb7700
+			length: 0
+			baseLength: 0
+			particles: 1
+			interp: pow5In
+			sizeInterp: pow2Out
+    }
+    {
+      type: ExplosionEffect            
+      lifetime: 90
+      waveStroke: 0
+      sparkColor: ffcb77
+      waveRad: 0
+      smokeSize: 0
+      smokeSizeBase: 0
+      sparks: 12
+      sparkRad: 8
+      sparkLen: 12
+      sparkStroke: 1.33
+    }
+  ]
+}
