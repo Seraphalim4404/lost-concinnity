@@ -3,7 +3,9 @@ size: 4
 health: 1300
 armor: 12
 rotateSpeed: 1
-range: 56
+range: 560
+minRange: 80
+drawMinRange: true
 shake: 2
 trackingRange: 680
 liquidCapacity: 500
