@@ -8,7 +8,7 @@ drag: 0.06
 accel: 0.1
 strafePenalty: 0.25
 
-hitSize: 10
+hitSize: 18
 health: 300
 mineRange: 64
 mineSpeed: 1
