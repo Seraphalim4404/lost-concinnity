@@ -32,7 +32,7 @@ parts: [
     outline: false
     x: 8.5
     y: 8.5
-    rotateSpeed: 10
+    rotateSpeed: 35
   }
 ]
 lightColor: 735491
