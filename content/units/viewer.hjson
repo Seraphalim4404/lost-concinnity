@@ -30,9 +30,9 @@ parts: [
     suffix: -blade
     layer: 116
     outline: false
-    x: 8
-    y: 8
-    moveRot: 2
+    x: 8.5
+    y: 8.5
+    rotateSpeed: 10
   }
 ]
 lightColor: 735491
