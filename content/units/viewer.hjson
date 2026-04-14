@@ -26,13 +26,56 @@ faceTarget: false
 
 parts: [
   {
-    type: RegionPart
-    suffix: -blade
+    type: haloPart
+    color: 735491
+    colorTo: 735491
+    mirror: true
+    shapes: 3
+    sides: 3
+    stroke: 0
+    strokeTo: 0
+    radius: 5
+    haloRadius: 0
+    haloRadiusTo: 19
+    haloRotateSpeed: -27
+
+    tri: true
+    triLength: 18
+    triLengthTo: 18
+
+    x: 8.65
+    y: 8.65
+    shapeRotation: 0
+    haloRotation: 90
+    moveX: 0
+    moveY: 0
     layer: 116
-    outline: false
-    x: 8.5
-    y: 8.5
-    rotateSpeed: 35
+  }
+  {
+    type: haloPart
+    color: 735491
+    colorTo: 735491
+    mirror: true
+    shapes: 3
+    sides: 3
+    stroke: 0
+    strokeTo: 0
+    radius: 5
+    haloRadius: 0
+    haloRadiusTo: 19
+    haloRotateSpeed: -27
+
+    tri: true
+    triLength: 18
+    triLengthTo: 18
+
+    x: 8.65
+    y: -8.65
+    shapeRotation: 0
+    haloRotation: 90
+    moveX: 0
+    moveY: 0
+    layer: 116
   }
 ]
 lightColor: 735491
