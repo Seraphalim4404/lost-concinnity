@@ -1,12 +1,15 @@
 type: flying 
 flying: true
+wobble: false
 alwaysUnlocked: true
 isEnemy: false
-speed: 3.5
+speed: 4.75
 rotateSpeed: 4
-drag: 0.06
-accel: 0.1
-strafePenalty: 0.25
+drag: 0.02
+accel: 0.02
+omniMovement: true
+strafePenalty: 1
+engineSize: 0
 
 hitSize: 18
 health: 300
@@ -17,12 +20,24 @@ mineWalls: true
 buildRange: 320
 buildSpeed: 0.5
 coreUnitDock: true
-shadowElevationScl: 3.2
+shadowElevationScl: 5
 canAttack: false
 faceTarget: false
-strafePenalty: 0.35
 
-lightColor: d5b2b2
+parts: [
+  {
+    type: RegionPart
+    suffix: -blade
+    layer: 116
+    outline: false
+    x: 8
+    y: 8
+    moveRot: 2
+  }
+]
+lightColor: 735491
 lightRadius: 208
+
+outlineColor: 2f2f2f
 
 shownPlanets: [umbraline]
