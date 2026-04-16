@@ -22,7 +22,10 @@ weapons: [
       length: 500
       damage: 250
 
+      collides: true
+
       pierce: false
+      pierceDamageFactor: 1
       pierceBuilding: false
 
       hitShake: 3
@@ -30,6 +33,7 @@ weapons: [
       shootEffect: instShoot
       pointEffect: none
       hitEffect: scatheLight
+      despawnEffect: scatheLight
     }
   }
 ]
