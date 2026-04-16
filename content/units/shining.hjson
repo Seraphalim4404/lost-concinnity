@@ -1,0 +1,35 @@
+template: TankUnitType
+type: Tank
+hitSize: 24
+health: 3200
+armor: 20
+speed: 0.65
+rotateSpeed: 0.9
+weapons: [
+  {
+    mirror: false
+    x: 0
+    y: 0
+    shootX: 0
+    shootY: 0
+    rotate: true
+    rotateSpeed: 2
+    reload: 30
+    recoil: 5
+    shootCone: 2
+    bullet: {
+      type: RailBulletType
+      length: 500
+      damage: 250
+
+      pierce: false
+      pierceBuilding: false
+
+      hitShake: 3
+
+      shootEffect: instShoot
+      pointEffect: none
+      hitEffect: scatheLight
+    }
+  }
+]
