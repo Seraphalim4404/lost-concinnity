@@ -1,6 +1,0 @@
-type: Prop
-variants: 0
-breakable: false
-alwaysReplace: false
-instantDeconstruct: false
-unitMoveBreakable: false
