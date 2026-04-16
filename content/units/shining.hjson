@@ -1,5 +1,5 @@
 template: TankUnitType
-type: Tank
+type: tank
 hitSize: 24
 health: 3200
 armor: 20
