@@ -31,7 +31,7 @@ weapons: [
       hitShake: 3
 
       shootEffect: instShoot
-      pointEffect: none
+      pointEffect: laser
       hitEffect: scatheLight
       despawnEffect: scatheLight
     }
