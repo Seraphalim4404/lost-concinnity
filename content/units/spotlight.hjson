@@ -29,6 +29,7 @@ parts: [
   {
     type: RegionPart
     suffix: "-glow"
+    color: ddc3ff
     blending: additive
     outline: false
     mirror: false
