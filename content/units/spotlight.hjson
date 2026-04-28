@@ -11,7 +11,6 @@ isEnemy: false
 hittable: false
 targetable: false
 logicControllable: false
-playerControllable: false
 speed: 6.65
 rotateSpeed: 5
 drag: 0.0085
@@ -44,7 +43,7 @@ canAttack: false
 faceTarget: false
 
 lightColor: e5d2ff
-lightRadius: 236
+lightRadius: 96
 fogRadius: 316
 
 outlines: false
