@@ -43,7 +43,7 @@ canAttack: false
 faceTarget: false
 
 lightColor: e5d2ff
-lightRadius: 96
+lightRadius: 128
 fogRadius: 316
 
 outlines: false
