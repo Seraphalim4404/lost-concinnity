@@ -11,7 +11,7 @@ isEnemy: false
 hittable: false
 targetable: false
 logicControllable: false
-speed: 6.65
+speed: 3
 rotateSpeed: 5
 drag: 0.0085
 accel: 0.0085
@@ -35,7 +35,7 @@ parts: [
   }
 ]
 
-hitSize: 24
+hitSize: 88
 health: 1000
 shadowElevationScl: 0
 softShadowScl: 0
