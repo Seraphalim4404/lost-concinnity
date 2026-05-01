@@ -64,7 +64,7 @@ drawer: {
       suffix: "-glow"
       color: da746d
       alpha: 0.7
-      glowScale: 100
+      glowScale: 30
       glowIntensity: 1.5
     }
   ]
