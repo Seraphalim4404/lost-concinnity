@@ -63,7 +63,8 @@ drawer: {
       parts: [
         {
           type: RegionPart
-          suffix: "-light"
+          suffix: "-lights"
+          outline: false
         }
       ]
     }
