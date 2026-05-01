@@ -52,6 +52,23 @@ shootType: {
   }
 }
 
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawTurret
+      suffix: "luminescent-"
+    }
+    {
+      type: DrawGlowRegion
+      suffix: "-glow"
+      color: da746d
+      alpha: 0.7
+      glowScale: 100
+      glowIntensity: 1.5
+    }
+  ]
+}
 requirements: [
   myacine/100
   adhite/250
