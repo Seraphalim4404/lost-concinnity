@@ -63,12 +63,11 @@ drawer: {
       parts: [
         {
           type: RegionPart
-          suffix: "-light"
+          suffix: "-heat"
           outline: false
           heatLight: true
           heatProgress: reload
           heatLightOpacity: 1
-          layer: 140
         }
         {
           type: RegionPart
