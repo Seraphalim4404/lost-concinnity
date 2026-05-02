@@ -66,17 +66,17 @@ drawer: {
           suffix: "-light"
           outline: false
           heatLight: true
-          heatProgress: warmup
+          heatProgress: reload
           heatLightOpacity: 1
+          layer: 140
         }
         {
           type: RegionPart
           suffix: "-redlight"
           outline: false
           heatLight: true
-          heatProgress: 1
+          heatProgress: reload
           heatLightOpacity: 1
-          layer: 140
         }
       ]
     }
