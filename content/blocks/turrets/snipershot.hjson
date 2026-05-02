@@ -72,9 +72,11 @@ drawer: {
         {
           type: RegionPart
           suffix: "-redlight"
+          outline: false
           heatLight: true
           heatProgress: 1
           heatLightOpacity: 1
+          layer: 140
         }
       ]
     }
