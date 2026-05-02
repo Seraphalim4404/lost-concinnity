@@ -68,19 +68,13 @@ drawer: {
           heatLight: true
           heatProgress: warmup
           heatLightOpacity: 1
-          heatColor: ff8c92
         }
-      ]
-    }
-    {
-      type: DrawGlowRegion
-      parts: [
         {
           type: RegionPart
           suffix: "-redlight"
           heatLight: true
           heatProgress: 1
-          heatColor: da746d
+          heatLightOpacity: 1
         }
       ]
     }
