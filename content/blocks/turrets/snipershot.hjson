@@ -72,12 +72,11 @@ drawer: {
       ]
     }
     {
-      type: DrawGlowRegion
-      suffix: "-glow"
-      color: da746d
-      alpha: 0.7
-      glowScale: 30
-      glowIntensity: 1.5
+      type: RegionPart
+      suffix: "-redlight"
+      heatLight: true
+      heatProgress: 1
+      heatColor: da746d
     }
   ]
 }
