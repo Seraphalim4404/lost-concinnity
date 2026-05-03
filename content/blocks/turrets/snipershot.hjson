@@ -8,8 +8,6 @@ shake: 2
 trackingRange: 680
 liquidCapacity: 500
 drawLiquidLight: true
-emitLight: true
-lightRadius: 64
 consumes: {
   power: 2
 }
@@ -60,9 +58,6 @@ drawer: {
     {
       type: DrawTurret
       basePrefix: "luminescent-"
-    }
-    {
-      type: DrawRegion
       parts: [
         {
           type: RegionPart
