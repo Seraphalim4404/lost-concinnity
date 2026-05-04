@@ -58,24 +58,6 @@ drawer: {
     {
       type: DrawTurret
       basePrefix: "luminescent-"
-      parts: [
-        {
-          type: RegionPart
-          suffix: "-light"
-          outline: false
-          heatLight: true
-          heatProgress: reload
-          heatLightOpacity: 1
-        }
-        {
-          type: RegionPart
-          suffix: "-redlight"
-          outline: false
-          heatLight: true
-          heatProgress: reload
-          heatLightOpacity: 1
-        }
-      ]
     }
   ]
 }
