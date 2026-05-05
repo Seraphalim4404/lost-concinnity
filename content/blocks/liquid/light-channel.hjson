@@ -1,0 +1,12 @@
+type: Conduit
+health: 350
+armor: 50
+liquidCapacity: 20
+liquidPressure: 1
+requirements: [
+  adhite/1
+  selvener/1
+]
+leaks: false
+category: liquid
+research: remnant
