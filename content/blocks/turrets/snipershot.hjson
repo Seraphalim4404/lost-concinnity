@@ -19,8 +19,8 @@ shoot: {
   shots: 2
   shotDelay: 33
   barrels: [
-  16, 8, 0
-  16, -8, 0
+  8, 16, 0
+  -8, 16, 0
   ]
 }
 shootType: {
@@ -72,18 +72,18 @@ drawer: {
           type: RegionPart
           suffix: "-barrel-R"
           under: true
-          x: 16
-          y: 8
-          moveY: -4
+          x: 8
+          y: 16
+          moveY: -6
           progress: recoil
         }
         {
           type: RegionPart
-          suffix: "-barrel-R"
+          suffix: "-barrel-L"
           under: true
-          x: 16
-          y: 8
-          moveY: -4
+          x: -8
+          y: 16
+          moveY: -6
           progress: recoil
           recoilIndex: 1
         }
