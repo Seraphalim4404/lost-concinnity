@@ -1,11 +1,11 @@
-function StatusEffect(name
+function StatusEffect{
+  
+  let testing: 1
+    
+  }
 
-  let damageMultiplier: 1,
-  let healthMultiplier: 1,
-  let
 
-
-  et
+  
 
 
   if(!Vars.headless && this.effect !== Fx.none && !unit.inFogTo(Vars.player.team()) && unit.health / unit.maxHealth <= 0.25) {
