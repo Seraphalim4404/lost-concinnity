@@ -13,14 +13,14 @@ consumes: {
 }
 shootCone: 1
 reload: 180
-recoil: 2
+recoils: 2
 shoot: {
   type: ShootBarrel
   shots: 2
   shotDelay: 33
   barrels: [
-  8, 16, 0
-  -8, 16, 0
+  8, 22, 0
+  -8, 22, 0
   ]
 }
 shootType: {
@@ -73,16 +73,17 @@ drawer: {
           suffix: "-barrel-R"
           under: true
           x: 8
-          y: 16
+          y: 22
           moveY: -6
           progress: recoil
+          recoilIndex: 0
         }
         {
           type: RegionPart
           suffix: "-barrel-L"
           under: true
           x: -8
-          y: 16
+          y: 22
           moveY: -6
           progress: recoil
           recoilIndex: 1
