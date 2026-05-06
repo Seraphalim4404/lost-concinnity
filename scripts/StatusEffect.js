@@ -1,4 +1,5 @@
-function StatusEffect{
+let StatusEffect
+function Override StatusEffect(new = (){
   
   let testing: 1
     
