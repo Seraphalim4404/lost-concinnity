@@ -6,7 +6,7 @@ Events.on(EventType.ClientLoadEvent, function() {
     restr = Vars.content.getByName(ContentType.status, "lost-restrained");
 });
 
-Events.on(Trigger.update, function() {
+Events.run(Trigger.update, function() {
     // Strict null checks to prevent hidden NullPointerExceptions.
     // iOS handles NPEs across the JS/Java bridge very poorly.
     if(Vars.state.isMenu() || restr == null || Vars.player == null) return;
