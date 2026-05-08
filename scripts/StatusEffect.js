@@ -1,4 +1,4 @@
-Events.on(Trigger.update, e => { if(Mathf.chance(2) { Vars.player.unit().apply(Vars.content.get(lost-restrained), 60)  }})
+Events.on(Trigger.update, e => { if(Mathf.chance(2)) { Vars.player.unit().apply(Vars.content.get(lost-restrained), 60)  }});
 
   if(!Vars.headless && this.effect !== Fx.none && !unit.inFogTo(Vars.player.team()) && unit.health / unit.maxHealth <= 0.25) {
     Tmp.v1.rnd(Mathf.range(unit.type.hitSize * 0.5));
