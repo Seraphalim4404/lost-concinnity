@@ -19,7 +19,13 @@ Events.run(Trigger.update, () => {
     }
 
     if(!Vars.headless) {
-        Groups.unit.each(unit => {
+        // iOS SAFE FIX: Use a Java Iterator instead of .each()
+        // This avoids dynamic Proxy class generation which crashes iOS.
+        let iterator = Groups.unit.iterator();
+        
+        while(iterator.hasNext()){
+            let unit = iterator.next();
+            
             if(!unit.inFogTo(Vars.player.team()) && unit.healthf() <= 0.25) {
                 Tmp.v1.rnd(Mathf.range(unit.type.hitSize * 0.5));
                 
@@ -33,6 +39,6 @@ Events.run(Trigger.update, () => {
                     );
                 }
             }
-        });
+        }
     }
 });
