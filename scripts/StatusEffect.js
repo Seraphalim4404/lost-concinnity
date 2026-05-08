@@ -1,19 +1,27 @@
-Events.run(Trigger.update, setStatus);
+const restr = Vars.content.getByName(ContentType.status, "lost-restrained");
 
-function setStatus() {
-    if(Vars.state.isMenu()) return;
+Events.run(Trigger.update, () => {
+    if(Vars.state.isMenu() || !restr) return;
 
     if(Mathf.chance(0.02) && Vars.player.unit() != null) { 
-        let restr = Vars.content.getByName(ContentType.status, "lost-restrained");
-        if(restr) Vars.player.unit().apply(restr, 300);
+        Vars.player.unit().apply(restr, 60);
     };
 
     if(!Vars.headless) {
         Groups.unit.each(unit => {
             if(!unit.inFogTo(Vars.player.team()) && unit.healthf() <= 0.25) {
                 Tmp.v1.rnd(Mathf.range(unit.type.hitSize * 0.5));
-                Fx.fireSmoke.at(unit.x + Tmp.v1.x, unit.y + Tmp.v1.y);
+                
+                if(restr.effect !== Fx.none) {
+                    restr.effect.at(
+                        unit.x + Tmp.v1.x, 
+                        unit.y + Tmp.v1.y, 
+                        0, 
+                        restr.color, 
+                        restr.parentizeEffect ? unit : null
+                    );
+                }
             }
         });
     }
-}
+});
