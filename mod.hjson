@@ -9,8 +9,8 @@ Adds a new dark planet close to Serpulo. This mod also adds dark atmospheres to 
 
 Though this description is incomplete, its contents cannot be used anywhere.
   '''
-version: 0
+version: 0.0.1
 minGameVersion: 157
 repo: Seraphalim4404/lost-concinnity
-hidden: true
+hidden: false
 iosCompatible: true

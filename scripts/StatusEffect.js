@@ -1,16 +1,22 @@
-Events.on(ClientLoadEvent, () => {
-    const restr = Vars.content.getByName(ContentType.status, "lost-restrained");
+// make sure its global
+let restr = null;
+
+// TODO: remove when confirmed the script works
+Events.on(EventType.ClientLoadEvent, () => {
+    restr = Vars.content.getByName(ContentType.status, "lost-restrained");
+    
     Log.info("EFFECT REGISTER\n\n\nEFFECT REGISTER\n\n\n");
     Log.info(restr != null ? "true" : "false");
     Log.info("\n\n\nEFFECT REGISTER\n\n\nEFFECT REGISTER");
 });
 
-Events.on(Trigger.update, () => {
+Events.run(Trigger.update, () => {
     if(Vars.state.isMenu() || !restr) return;
 
+    // 2% 60 times a second is basically guarenteed to be applied
     if(Mathf.chance(0.02) && Vars.player.unit() != null) { 
         Vars.player.unit().apply(restr, 60);
-    };
+    }
 
     if(!Vars.headless) {
         Groups.unit.each(unit => {
