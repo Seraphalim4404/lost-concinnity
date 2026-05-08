@@ -5,8 +5,5 @@ Events.run(Trigger.update, e => { if(Mathf.chance(2)) { Vars.player.unit().apply
     this.effect.at(unit.x + Tmp.v1.x, unit.y + Tmp.v1.y, 0.0, this.color, this.parentizeEffect ? unit : null);
     };
   } catch(e){
-  Vars.ui.showInfoToast(e + "-file", 5);
+  Vars.ui.showInfoToast(e + "-StatusEffect", 5);
   }
-module.exports = {
-  StatusEffect: StatusEffect
-}
