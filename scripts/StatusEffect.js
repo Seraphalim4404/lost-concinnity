@@ -5,7 +5,7 @@ Events.on(ClientLoadEvent, () => {
     Log.info("\n\n\nEFFECT REGISTER\n\n\nEFFECT REGISTER");
 });
 
-Events.run(Trigger.update, () => {
+Events.on(Trigger.update, () => {
     if(Vars.state.isMenu() || !restr) return;
 
     if(Mathf.chance(0.02) && Vars.player.unit() != null) { 
