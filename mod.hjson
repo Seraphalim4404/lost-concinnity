@@ -13,4 +13,4 @@ version: 0
 minGameVersion: 157
 repo: Seraphalim4404/lost-concinnity
 hidden: true
-iosCompatibility: true
+iosCompatible: true
