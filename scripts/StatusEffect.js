@@ -1,11 +1,4 @@
 // Force JIT Off immediately
-try {
-    var cx = org.mozilla.javascript.Context.enter();
-    cx.setOptimizationLevel(-1);
-} catch(e) {} finally {
-    try { org.mozilla.javascript.Context.exit(); } catch(e) {}
-}
-
 var restr = null;
 var timer = 0;
 var debugStep = 0;
