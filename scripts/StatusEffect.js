@@ -1,14 +1,7 @@
 // Force JIT Off immediately
-var restr = null;
-var timer = 0;
-var debugStep = 0;
 
-Events.on(EventType.ClientLoadEvent, function() {
-    restr = Vars.content.getByName(ContentType.status, "lost-restrained");
-});
 
 Events.run(Trigger.update, function() {
-    return;
     if(Vars.state.isMenu() || restr == null) return;
 
     // Increment timer (60 ticks = 1 second)
