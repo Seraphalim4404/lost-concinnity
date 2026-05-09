@@ -1,67 +1,76 @@
+// Force JIT Off immediately
 try {
-    const cx = org.mozilla.javascript.Context.getCurrentContext();
-    if (cx != null) cx.setOptimizationLevel(-1);
-} catch(e) {}
+    var cx = org.mozilla.javascript.Context.enter();
+    cx.setOptimizationLevel(-1);
+} catch(e) {} finally {
+    try { org.mozilla.javascript.Context.exit(); } catch(e) {}
+}
 
-// Use var instead of let for top-level script variables to avoid Rhino scoping bugs
 var restr = null;
-var lastRun = 0;
+var timer = 0;
+var debugStep = 0;
 
-// Use standard function() instead of arrow functions for Event proxies
 Events.on(EventType.ClientLoadEvent, function() {
     restr = Vars.content.getByName(ContentType.status, "lost-restrained");
 });
 
 Events.run(Trigger.update, function() {
-    // Strict null checks to prevent hidden NullPointerExceptions.
-    // iOS handles NPEs across the JS/Java bridge very poorly.
-    if(Vars.state.isMenu() || restr == null || Vars.player == null) return;
-    Log.info("\n\n\n Function is being run\n\n\n");
+    if(Vars.state.isMenu() || restr == null) return;
 
-    // limit updates to 12 times a second
-    lastRun++;
-    if(lastRun < 5) return;
-    lastRun = 0;
+    // Increment timer (60 ticks = 1 second)
+    timer++;
 
-    var pUnit = Vars.player.unit();
-
-    // 2% 60 times a second
-    if(Mathf.chance(0.02) && pUnit != null) { 
-        pUnit.apply(restr, 60);
+    // --- STEP 1: Initialization (After 2 seconds) ---
+    if(debugStep == 0 && timer > 120) {
+        debugStep = 1;
+        Vars.ui.announce("[accent]Step 1: Checking Player...");
     }
 
-    if(!Vars.headless) {
-        Log.info("\n\n\nBefore Groups\n\n\n");
-        var unitList = Groups.unit.list;
-        var total = unitList.size;
-        var pTeam = Vars.player.team();
-        
-        for(var i = 0; i < total; i++) {
-            Log.info("Unit Iterated");
-//            var unit = unitList.get(i);
-            
-//            if(unit != null && !unit.inFogTo(pTeam) && unit.healthf() <= 0.25) {
-                
-//                if(restr.effect != null && restr.effect != Fx.none) {
+    if(debugStep == 1 && timer > 180) { // Give it a moment to announce
+        var pUnit = Vars.player.unit();
+        if(pUnit != null) pUnit.apply(restr, 60);
+        debugStep = 2;
+    }
 
-//                     var offsetX = Mathf.range(unit.type.hitSize * 0.5);
-//                     var offsetY = Mathf.range(unit.type.hitSize * 0.5);
-//                     var ex = unit.x + offsetX;
-//                     var ey = unit.y + offsetY;
-                    
-                    // iOS CRASH FIX: 
-                    // Never pass `null` as an argument to an overloaded Java method 
-                    // in Rhino. It breaks RoboVM's reflection engine.
-//                    if(restr.parentizeEffect) {
-                        // 5 parameters (Effect.at(float, float, float, Color, Object))
-//                        restr.effect.at(ex, ey, 0, restr.color, unit);
-//                    } else {
-                        // 4 parameters (Effect.at(float, float, float, Color))
-//                        restr.effect.at(ex, ey, 0, restr.color);
-//                    }
-//                }
-//            }
+    // --- STEP 2: Group Access (After 5 more seconds) ---
+    if(debugStep == 2 && timer > 480) { // 300 ticks = 5 seconds
+        debugStep = 3;
+        Vars.ui.announce("[accent]Step 2: Accessing Groups...");
+    }
+
+    if(debugStep == 3 && timer > 540) {
+        var unitList = Groups.unit.list; 
+        var total = unitList.size; // Just reading the size
+        debugStep = 4;
+    }
+
+    // --- STEP 3: The Loop (After 5 more seconds) ---
+    if(debugStep == 4 && timer > 840) {
+        debugStep = 5;
+        Vars.ui.announce("[accent]Step 3: Entering Loop...");
+    }
+
+    if(debugStep == 5 && timer > 900) {
+        var unitList = Groups.unit.list;
+        for(var i = 0; i < unitList.size; i++) {
+            var unit = unitList.get(i); // The most likely SIGKILL line
         }
-        Log.info("\n\n\nAfter Groups\n\n\n");
+        debugStep = 6;
+        Vars.ui.announce("[green]Step 6: Success! No Crash Yet.:tm:");
+    }
+
+    // --- STEP 4: Final Logic (Constant Run) ---
+    if(debugStep == 6) {
+        // Run the actual mod logic once we know it's safe
+        if(timer % 10 == 0) { // Every 10 frames
+            var unitList = Groups.unit.list;
+            for(var i = 0; i < unitList.size; i++) {
+                var u = unitList.get(i);
+                if(u != null && u.healthf() < 0.5) {
+                    // Just testing a field read
+                    var h = u.health;
+                }
+            }
+        }
     }
 });
