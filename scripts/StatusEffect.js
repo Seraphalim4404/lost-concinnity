@@ -1,5 +1,8 @@
 // Force JIT Off immediately
 
+var restr = null;
+var timer = 0;
+var debugStep = 0;
 
 Events.run(Trigger.update, function() {
     if(Vars.state.isMenu() || restr == null) return;
