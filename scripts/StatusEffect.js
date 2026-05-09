@@ -53,8 +53,8 @@ Events.run(Trigger.update, function() {
                         // 4 parameters (Effect.at(float, float, float, Color))
 //                        restr.effect.at(ex, ey, 0, restr.color);
 //                    }
-                }
-            }
+//                }
+//            }
         }
         Log.info("\n\n\nAfter Groups\n\n\n");
     }
