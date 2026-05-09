@@ -16,7 +16,7 @@ Events.run(Trigger.update, function() {
     // Strict null checks to prevent hidden NullPointerExceptions.
     // iOS handles NPEs across the JS/Java bridge very poorly.
     if(Vars.state.isMenu() || restr == null || Vars.player == null) return;
-    Log.info("\n\n\n Function is being run\n\n\n");'
+    Log.info("\n\n\n Function is being run\n\n\n");
 
     // limit updates to 12 times a second
     lastRun++;
