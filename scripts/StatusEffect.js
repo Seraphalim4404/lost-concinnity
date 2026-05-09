@@ -10,7 +10,12 @@ Events.run(Trigger.update, function() {
     // Strict null checks to prevent hidden NullPointerExceptions.
     // iOS handles NPEs across the JS/Java bridge very poorly.
     if(Vars.state.isMenu() || restr == null || Vars.player == null) return;
-    Log.info("\n\n\n Function is being run\n\n\n");
+    Log.info("\n\n\n Function is being run\n\n\n");'
+
+    // limit updates to 12 times a second
+    lastRun++;
+    if(lastRun < 5) return;
+    lastRun = 0;
 
     var pUnit = Vars.player.unit();
 
@@ -25,26 +30,29 @@ Events.run(Trigger.update, function() {
         var total = unitList.size;
         var pTeam = Vars.player.team();
         
-        for(i = 0; i < total; i++) {
-            var unit = unitList.get(i);
+        for(var i = 0; i < total; i++) {
+            Log.info("Unit Iterated");
+//            var unit = unitList.get(i);
             
-            if(unit != null && !unit.inFogTo(pTeam) && unit.healthf() <= 0.25) {
-                Tmp.v1.rnd(Mathf.range(unit.type.hitSize * 0.5));
+//            if(unit != null && !unit.inFogTo(pTeam) && unit.healthf() <= 0.25) {
                 
-                if(restr.effect != null && restr.effect != Fx.none) {
-                    var ex = unit.x + Tmp.v1.x;
-                    var ey = unit.y + Tmp.v1.y;
+//                if(restr.effect != null && restr.effect != Fx.none) {
+
+//                     var offsetX = Mathf.range(unit.type.hitSize * 0.5);
+//                     var offsetY = Mathf.range(unit.type.hitSize * 0.5);
+//                     var ex = unit.x + offsetX;
+//                     var ey = unit.y + offsetY;
                     
                     // iOS CRASH FIX: 
                     // Never pass `null` as an argument to an overloaded Java method 
                     // in Rhino. It breaks RoboVM's reflection engine.
-                    if(restr.parentizeEffect) {
+//                    if(restr.parentizeEffect) {
                         // 5 parameters (Effect.at(float, float, float, Color, Object))
-                        restr.effect.at(ex, ey, 0, restr.color, unit);
-                    } else {
+//                        restr.effect.at(ex, ey, 0, restr.color, unit);
+//                    } else {
                         // 4 parameters (Effect.at(float, float, float, Color))
-                        restr.effect.at(ex, ey, 0, restr.color);
-                    }
+//                        restr.effect.at(ex, ey, 0, restr.color);
+//                    }
                 }
             }
         }
