@@ -10,6 +10,7 @@ Events.run(Trigger.update, function() {
     // Strict null checks to prevent hidden NullPointerExceptions.
     // iOS handles NPEs across the JS/Java bridge very poorly.
     if(Vars.state.isMenu() || restr == null || Vars.player == null) return;
+    Log.info("\n\n\n Function is being run\n\n\n");
 
     var pUnit = Vars.player.unit();
 
@@ -19,11 +20,13 @@ Events.run(Trigger.update, function() {
     }
 
     if(!Vars.headless) {
-        var iterator = Groups.unit.iterator();
+        Log.info("\n\n\nBefore Groups\n\n\n");
+        var unitList = Groups.unit.list;
+        var total = unitList.size;
         var pTeam = Vars.player.team();
         
-        while(iterator.hasNext()) {
-            var unit = iterator.next();
+        for(i = 0; i < total; i++) {
+            var unit = unitList.get(i);
             
             if(unit != null && !unit.inFogTo(pTeam) && unit.healthf() <= 0.25) {
                 Tmp.v1.rnd(Mathf.range(unit.type.hitSize * 0.5));
@@ -45,5 +48,6 @@ Events.run(Trigger.update, function() {
                 }
             }
         }
+        Log.info(\n\n\nAfter Groups\n\n\n");
     }
 });
