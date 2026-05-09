@@ -48,6 +48,6 @@ Events.run(Trigger.update, function() {
                 }
             }
         }
-        Log.info(\n\n\nAfter Groups\n\n\n");
+        Log.info("\n\n\nAfter Groups\n\n\n");
     }
 });
