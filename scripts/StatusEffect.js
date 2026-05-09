@@ -15,6 +15,7 @@ Events.on(EventType.ClientLoadEvent, function() {
 });
 
 Events.run(Trigger.update, function() {
+    return;
     if(Vars.state.isMenu() || restr == null) return;
 
     // Increment timer (60 ticks = 1 second)
