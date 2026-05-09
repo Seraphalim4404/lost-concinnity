@@ -5,6 +5,7 @@ try {
 
 // Use var instead of let for top-level script variables to avoid Rhino scoping bugs
 var restr = null;
+var lastRun = 0;
 
 // Use standard function() instead of arrow functions for Event proxies
 Events.on(EventType.ClientLoadEvent, function() {
