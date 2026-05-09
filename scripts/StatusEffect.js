@@ -1,3 +1,8 @@
+try {
+    const cx = org.mozilla.javascript.Context.getCurrentContext();
+    if (cx != null) cx.setOptimizationLevel(-1);
+} catch(e) {}
+
 // Use var instead of let for top-level script variables to avoid Rhino scoping bugs
 var restr = null;
 
