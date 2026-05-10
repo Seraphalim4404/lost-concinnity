@@ -5,6 +5,7 @@ var timer = 0;
 var debugStep = 0;
 
 Events.run(Trigger.update, function() {
+    return;
     if(Vars.state.isMenu() || restr == null) return;
 
     // Increment timer (60 ticks = 1 second)
