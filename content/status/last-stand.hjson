@@ -8,7 +8,7 @@ applyExtend: true
 applyEffect: {
   type: ParticleEffect
   lifetime: 1
-  region: lost-last-stand
+  region: lost-last-stand-effect
   sizeFrom: 22
   sizeTo: 22
   colorFrom: 3283d4ff
