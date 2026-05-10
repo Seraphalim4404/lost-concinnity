@@ -7,15 +7,16 @@ dragMultiplier: 0.33
 applyExtend: true
 applyEffect: {
   type: ParticleEffect
-  lifetime: 6
+  lifetime: 2.5
   region: lost-last-stand-effect
   sizeFrom: 22
   sizeTo: 22
-  colorFrom: 3283d4ff
+  colorFrom: 71b4f3ff
   colorTo: 3283d400
   length: 0
   baseLength: 0
   particles: 1
+  layer: 110
   interp: pow5In
   sizeInterp: pow2Out
 }
