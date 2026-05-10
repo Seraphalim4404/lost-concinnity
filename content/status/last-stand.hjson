@@ -16,7 +16,6 @@ applyEffect: {
   length: 0
   baseLength: 0
   particles: 1
-  layer: 110
   interp: pow5In
   sizeInterp: pow2Out
 }
