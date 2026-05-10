@@ -7,7 +7,7 @@ dragMultiplier: 0.33
 applyExtend: true
 applyEffect: {
   type: ParticleEffect
-  lifetime: 1
+  lifetime: 6
   region: lost-last-stand-effect
   sizeFrom: 22
   sizeTo: 22
