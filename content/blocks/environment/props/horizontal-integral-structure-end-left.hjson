@@ -1,0 +1,7 @@
+type: TallBlock
+variants: 0
+solid: true
+rotationRand: 0
+  
+breakable: false
+alwaysReplace: false
