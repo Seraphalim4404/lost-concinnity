@@ -19,8 +19,7 @@ weapons: [
     recoil: 0
     inaccuracy: 0
     shootCone: 360
-    chargeSound: [punch1, punch2, punch3]
-    shootSound: none
+    shootSound: [punch1, punch2, punch3]
     bullet: {
       type: BasicBulletType
       height: 0
