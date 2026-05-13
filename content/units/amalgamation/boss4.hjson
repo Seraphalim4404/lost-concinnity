@@ -1,15 +1,13 @@
 type: mech
 alwaysUnlocked: true
-speed: 5.55
+speed: 1.11
 rotateSpeed: 4.75
-drag: 0.02
+drag: 0.2
 
 hitSize: 44
 health: 40000
 armor: 200
 
-chargeSound: [punch1, punch2, punch3]
-shootSound: none
 weapons: [
   {
     x: 0
@@ -21,6 +19,8 @@ weapons: [
     recoil: 0
     inaccuracy: 0
     shootCone: 360
+    chargeSound: [punch1, punch2, punch3]
+    shootSound: none
     bullet: {
       type: BasicBulletType
       height: 0
