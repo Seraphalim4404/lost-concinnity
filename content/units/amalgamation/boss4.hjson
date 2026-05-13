@@ -1,0 +1,6 @@
+type: mech
+
+health: 40000
+armor: 25
+speed: 2
+drag: 0.3
