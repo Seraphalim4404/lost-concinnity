@@ -29,7 +29,7 @@ effect: {
       type: ParticleEffect
       particles: 1
       cone: 360
-      length: 0
+      length: -66
       baseLength: 66
       sizeFrom: 1.7
       sizeTo: 0.7
@@ -40,14 +40,13 @@ effect: {
     {
       type: ParticleEffect
       particles: 1
-      line: true
       cone: 360
-      lenFrom: 22
-      lenTo: 0
-      strokeFrom: 0.8
-      strokeTo: 0.1
+      length: -66
+      baseLength: 66
+      sizeFrom: 1.7
+      sizeTo: 0.7
       lightOpacity: 0.66
-      colorFrom: 5d96c49
+      colorFrom: 5d96c32
       colorTo: 5d96c00
     }
   ]
