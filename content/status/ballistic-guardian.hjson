@@ -28,7 +28,7 @@ effect: {
       type: ParticleEffect
       particles: 6
       cone: 360
-      length: -52
+      length: -66
       baseLength: 0
       sizeFrom: 1.7
       sizeTo: 0.7
