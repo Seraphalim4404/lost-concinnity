@@ -21,14 +21,15 @@ applyEffect: {
   interp: pow5In
   sizeInterp: pow2Out
 }
+effectChance: 0.75
 effect: {
   type: MultiEffect
   effects: [
     {
       type: ParticleEffect
-      particles: 6
+      particles: 1
       cone: 360
-      length: -66
+      length: 66
       baseLength: 0
       sizeFrom: 1.7
       sizeTo: 0.7
@@ -38,15 +39,15 @@ effect: {
     }
     {
       type: ParticleEffect
-      particles: 3
+      particles: 1
       line: true
       cone: 360
       lenFrom: 22
       lenTo: 0
-      strokeFrom: 1.2
-      strokeTo: 0.7
+      strokeFrom: 0.8
+      strokeTo: 0.1
       lightOpacity: 0.66
-      colorFrom: 5d96cae
+      colorFrom: 5d96c49
       colorTo: 5d96c00
     }
   ]
