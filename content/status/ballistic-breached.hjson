@@ -2,13 +2,14 @@ healthMultiplier: 0.9
 
 permanent: true
 
+applyExtend: true
 applyEffect: {
   type: ParticleEffect
   lifetime: 120
   region: lost-ballistic-breached-effect
   sizeFrom: 6
   sizeTo: 33
-  colorFrom: 729dc8ff
+  colorFrom: 9eb6ceff
   colorTo: 3283d400
   length: 0
   baseLength: 0
