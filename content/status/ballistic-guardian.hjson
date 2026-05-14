@@ -28,16 +28,16 @@ effect: {
       type: ParticleEffect
       particles: 6
       cone: 360
-      length: 0
-      baseLength: 52
+      length: -52
+      baseLength: 0
       sizeFrom: 1.7
       sizeTo: 0.7
       lightOpacity: 0.66
-      colorFrom: 5d96cae
+      colorFrom: 5d96c49
       colorTo: 5d96c00
     }
     {
-      type: ExplosionEffect
+      type: ParticleEffect
       particles: 3
       line: true
       cone: 360
