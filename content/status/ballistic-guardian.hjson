@@ -14,7 +14,7 @@ applyEffect: {
   region: lost-ballistic-guardian-effect
   sizeFrom: 6
   sizeTo: 33
-  colorFrom: eeeeeeff
+  colorFrom: f0f0f0ff
   colorTo: 3283d400
   length: 0
   baseLength: 0
@@ -35,7 +35,7 @@ effect: {
       sizeFrom: 1.7
       sizeTo: 0.7
       lightOpacity: 0.66
-      colorFrom: cae0f4ff
+      colorFrom: 5299e0ff
       colorTo: cae0f400
     }
     {
@@ -47,7 +47,7 @@ effect: {
       sizeFrom: 1.7
       sizeTo: 0.7
       lightOpacity: 0.66
-      colorFrom: 5d96c1d9
+      colorFrom: 5d96c1ff
       colorTo: 5d96c100
     }
   ]
