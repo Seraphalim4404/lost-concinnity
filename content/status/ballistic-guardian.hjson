@@ -4,6 +4,7 @@ reloadMultiplier: 1.1
 dragMultiplier: 0.33
 
 opposites: [ballistic-breached]
+
 applyEffect: {
   type: ParticleEffect
   lifetime: 120
