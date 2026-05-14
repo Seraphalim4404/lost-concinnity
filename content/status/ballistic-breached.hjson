@@ -8,7 +8,7 @@ applyEffect: {
   region: lost-ballistic-breached-effect
   sizeFrom: 6
   sizeTo: 33
-  colorFrom: 3283d4
+  colorFrom: 729dc8ff
   colorTo: 3283d400
   length: 0
   baseLength: 0
