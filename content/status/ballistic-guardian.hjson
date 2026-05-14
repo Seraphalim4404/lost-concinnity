@@ -17,3 +17,33 @@ applyEffect: {
   interp: pow5In
   sizeInterp: pow2Out
 }
+effect: {
+  type: MultiEffect
+  effects: [
+    {
+      type: ParticleEffect
+      particles: 6
+      cone: 360
+      length: 0
+      baseLength: 52
+      sizeFrom: 1.7
+      sizeTo: 0.7
+      lightOpacity: 0.66
+      colorFrom: 5d96cae
+      colorTo: 5d96c00
+    }
+    {
+      type: ExplosionEffect
+      particles: 3
+      line: true
+      cone: 360
+      lenFrom: 22
+      lenTo: 0
+      strokeFrom: 1.2
+      strokeTo: 0.7
+      lightOpacity: 0.66
+      colorFrom: 5d96cae
+      colorTo: 5d96c00
+    }
+  ]
+}
