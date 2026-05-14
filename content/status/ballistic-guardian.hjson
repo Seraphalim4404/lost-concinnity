@@ -29,12 +29,12 @@ effect: {
       type: ParticleEffect
       particles: 1
       cone: 360
-      length: 66
-      baseLength: 0
+      length: 0
+      baseLength: 66
       sizeFrom: 1.7
       sizeTo: 0.7
       lightOpacity: 0.66
-      colorFrom: 5d96c49
+      colorFrom: 5d96c32
       colorTo: 5d96c00
     }
     {
