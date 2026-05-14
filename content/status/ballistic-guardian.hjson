@@ -3,6 +3,8 @@ speedMultiplier: 1.1
 reloadMultiplier: 1.1
 dragMultiplier: 0.33
 
+permanent: true
+
 opposites: [ballistic-breached]
 
 applyEffect: {
