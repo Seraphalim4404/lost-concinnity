@@ -3,7 +3,7 @@ variants: 0
 solid: false
 rotationRand: 35
 layer: 0.1
-hasShadow: false
+shadowAlpha: 0
 
 breakable: false
 alwaysReplace: true
