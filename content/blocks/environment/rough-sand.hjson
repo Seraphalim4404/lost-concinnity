@@ -1,0 +1,4 @@
+type: Floor
+variants: 7
+itemDrop: hard-sand
+playerUnmineable: true
