@@ -1,0 +1,9 @@
+type: Wall
+size: 4
+health: 8800
+
+requirements: [
+  lycite/16
+  pure-lead/32
+]
+category: defense
