@@ -5,7 +5,7 @@ charge: 0
 cost: 450
 
 color: 919191
-
+alwaysUnlocked: true
 research: {
   parent: tungsten-powder
 }
