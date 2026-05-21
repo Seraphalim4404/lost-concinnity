@@ -1,7 +1,7 @@
 explosiveness: 0.6
 flammability: 0
-radioactivity: 0
-charge: 0.6
+radioactivity: 0.6
+charge: 0.1
 cost: 120
 
 color: 684089
