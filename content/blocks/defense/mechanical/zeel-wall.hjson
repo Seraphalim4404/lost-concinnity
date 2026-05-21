@@ -1,0 +1,9 @@
+type: Wall
+size: 2
+health: 8000
+  
+requirements: [
+  tungsten-cube/4
+  zeel/8
+]
+category: defense
