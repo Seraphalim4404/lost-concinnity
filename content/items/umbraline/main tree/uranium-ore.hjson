@@ -6,3 +6,7 @@ hardness: 5
 cost: 600
 
 color: 060606
+alwaysUnlocked: true
+research: {
+  parent: tungsten-powder
+}
