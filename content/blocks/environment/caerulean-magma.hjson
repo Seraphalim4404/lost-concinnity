@@ -1,5 +1,5 @@
 type: Floor
-variants: 4
+variants: 6
 blendGroup: hardened-caerulean-rock
 emitLight: true
 lightRadius: 44
