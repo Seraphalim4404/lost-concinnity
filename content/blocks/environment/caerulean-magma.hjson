@@ -2,4 +2,5 @@ type: Floor
 variants: 4
 blendGroup: caerulean-rocks
 emitLight: true
-lightRadius: 66
+lightRadius: 44
+lightColor: c0ceff46
