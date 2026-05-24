@@ -1,9 +1,2 @@
-type: TallBlock
-variants: 0
-solid: false
-rotationRand: 35
-layer: 0.1
-shadowAlpha: 0
-
-breakable: false
-alwaysReplace: true
+type: OverlayFlopr
+variants: 2
