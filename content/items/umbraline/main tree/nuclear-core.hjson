@@ -1,0 +1,12 @@
+explosiveness: 1
+flammability: 0
+radioactivity: 2
+charge: 0
+hardness: 5
+cost: 600
+
+color: 3e4e39
+alwaysUnlocked: true
+research: {
+  parent: uranium-ore
+}
