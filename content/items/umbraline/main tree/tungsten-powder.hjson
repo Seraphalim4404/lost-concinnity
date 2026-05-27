@@ -7,3 +7,6 @@ cost: 0
 
 color: 9e9e9e
 alwaysUnlocked: true
+research: {
+  parent: salgo
+}
