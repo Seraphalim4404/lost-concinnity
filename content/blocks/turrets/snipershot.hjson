@@ -46,7 +46,7 @@ shootType: {
   fragOffsetMin: 0
   fragOffsetMax: 0
   fragBullet: {
-    type: BulletType
+    type: BasicBulletType
     height: 0
     width: 0
     hitSize: 24
