@@ -62,8 +62,8 @@ drawer: {
       plasmas: 4
       plasma1: c0d7ff
       plasma2: abbcff
-      plasma3: bdbef7
-      plasma4: b0d2f3
+      //plasma3: bdbef7
+      //plasma4: b0d2f3
     }
     {
       type: DrawCrucibleFlame
