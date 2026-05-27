@@ -1,3 +1,3 @@
-const mod = Vars.mods.locateMod("lost");
+//const mod = Vars.mods.locateMod("lost");
 
-require("StatusEffect");
+//require("StatusEffect");
