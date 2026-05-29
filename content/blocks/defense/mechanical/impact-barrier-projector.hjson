@@ -1,20 +1,11 @@
-type: DirectionalForceProjector
+type: ForceProjector
 size: 5
 health: 5000
 armor: 50
 
-width: 64
-length: 80
-padSize: 20
-cooldownNormal: 3
-cooldownLiquid: 1.5
-cooldownBrokenBase: 2
-  
-hasPower: true
-conductivePower: true
-rotate: true
-rotateDraw: true
-lockRotation: false
+radius: 80
+sides: 2
+shieldHealth: 6000
 requirements: [
   zeel/144
 ]
