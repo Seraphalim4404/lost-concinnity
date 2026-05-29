@@ -1,5 +1,5 @@
 type: DirectionalForceProjector
-size: 4
+size: 5
 health: 5000
 armor: 50
 
