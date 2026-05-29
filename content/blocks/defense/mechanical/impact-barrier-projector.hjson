@@ -4,7 +4,7 @@ health: 5000
 armor: 50
 
 radius: 80
-sides: 2
+sides: 4
 shieldHealth: 6000
 requirements: [
   zeel/144
