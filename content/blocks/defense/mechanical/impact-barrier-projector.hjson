@@ -1,0 +1,21 @@
+type: DirectionalForceProjector
+size: 4
+health: 5000
+armor: 50
+
+width: 64
+length: 80
+padSize: 20
+cooldownNormal: 3
+cooldownLiquid: 1.5
+cooldownBrokenBase: 2
+  
+hasPower: true
+conductivePower: true
+rotate: true
+rotateDraw: true
+lockRotation: false
+requirements: [
+  zeel/144
+]
+category: defense
