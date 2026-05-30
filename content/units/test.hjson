@@ -203,4 +203,4 @@ parts: [
 
 databaseTag: unit-ground
 omniMovement: true
-shownPlanets: [Serpulo]
+shownPlanets: [serpulo]
