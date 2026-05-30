@@ -1,4 +1,4 @@
-localizedname: Cod
+localizedName: Cod
 description: A hovering unit that excels at crowd control, spews out freezing bubbles at enemies, giving them freezing status effect. Can hover above all liquids.
 type: hover
 
@@ -205,4 +205,3 @@ aiController: GroundAI
 databaseTag: unit-ground
 omniMovement: true
 shownPlanets: true
-}
