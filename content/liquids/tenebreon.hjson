@@ -6,6 +6,7 @@ heatCapacity: 0
 viscosity: 0.96
 explosiveness: 0
 boilPoint: 1
+coolant: false
 blockReactive: false
 moveThroughBlocks: true
 incinerable: false
