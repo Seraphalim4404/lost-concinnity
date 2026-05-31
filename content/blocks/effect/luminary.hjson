@@ -48,7 +48,7 @@ drawer: {
   drawers: [
     {
       type: DrawTurret
-      basePrefix: "luminescent-"
+      basePrefix: "structured-"
     }
   ]
 }
