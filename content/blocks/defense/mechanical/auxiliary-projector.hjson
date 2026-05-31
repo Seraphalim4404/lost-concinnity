@@ -1,8 +1,8 @@
 type: ForceProjector
+squareSprite: false
 size: 5
 health: 5000
 armor: 50
-
 radius: 266
 sides: 4
 shieldRotation: 45
@@ -11,8 +11,6 @@ cooldownNormal: 2.5
 cooldownLiquid: 5
 cooldownBrokenBase: 50
 hasItems: false
-hasLiquids: false
-consumeCoolant: false
 consumes: {
   power: 50
 }
