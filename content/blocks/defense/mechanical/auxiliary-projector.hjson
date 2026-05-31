@@ -11,6 +11,7 @@ cooldownNormal: 2.5
 cooldownLiquid: 5
 cooldownBrokenBase: 50
 hasItems: false
+hasLiquids: false
 consumes: {
   power: 50
   liquids: {
