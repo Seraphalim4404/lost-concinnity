@@ -8,6 +8,6 @@ cost: 0.5
 color: dbd1b9
 alwaysUnlocked: true
 research: {
-  parent: remnant
+  parent: core-remnant
 }
 shownPlanets: [umbraline]
