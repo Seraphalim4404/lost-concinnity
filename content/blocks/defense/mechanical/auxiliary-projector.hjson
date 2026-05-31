@@ -9,7 +9,7 @@ shieldRotation: 45
 shieldHealth: 50000
 cooldownNormal: 2.5
 cooldownLiquid: 5
-cooldownBrokenBase: 50
+cooldownBrokenBase: 27.77777776666677
 hasItems: false
 consumes: {
   power: 50
