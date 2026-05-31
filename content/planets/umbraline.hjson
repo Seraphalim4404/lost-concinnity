@@ -55,7 +55,7 @@ allowWaves: true
 allowLaunchToNumbered: true
 enemyBuildSpeedMultiplier: 1
 //default core to launch with
-defaultCore: remnant
+defaultCore: core-remnant
 //visual mesh made of hexagons - note that JSON only supports NoiseMesh and HexSkyMesh
 //use objects {} to make a single mesh, and the format below to create multiple
 mesh: [
