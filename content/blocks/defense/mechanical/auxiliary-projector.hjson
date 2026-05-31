@@ -16,8 +16,6 @@ consumes: {
   liquid: {
     liquid: frigidus
     amount: 2
-    optional: true
-    booster: true
   }
 }
 requirements: [
