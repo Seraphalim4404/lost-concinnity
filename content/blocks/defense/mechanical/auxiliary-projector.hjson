@@ -12,7 +12,6 @@ cooldownLiquid: 5
 cooldownBrokenBase: 50
 hasItems: false
 consumes: {
-  liquid: none
   power: 50
   liquids: {
     liquids: [
