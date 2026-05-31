@@ -29,8 +29,8 @@ shieldBreakEffect: {
       randLength: false
       length: 0
       baseLength: 0
-      sizeFrom: 96
-      sizeTo: 22
+      sizeFrom: 128
+      sizeTo: 32
       lifetime: 180
       interp: pow2In
       offsetX: 0
