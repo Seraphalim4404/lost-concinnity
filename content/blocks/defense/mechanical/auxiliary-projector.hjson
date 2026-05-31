@@ -13,8 +13,11 @@ cooldownBrokenBase: 50
 hasItems: false
 consumes: {
   power: 50
-  liquids: {
-    frigidus/2
+  liquid: {
+    liquid: frigidus
+    amount: 2
+    optional: true
+    booster: true
   }
 }
 requirements: [
