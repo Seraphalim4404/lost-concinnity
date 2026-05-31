@@ -34,8 +34,8 @@ shieldBreakEffect: {
       cone: 0
       length: 0
       baseLength: 0
-      sizeFrom: 48
-      sizeTo: 24
+      sizeFrom: 96
+      sizeTo: 32
       interp: pow10In
       offsetX: 0
       offsetY: 0
