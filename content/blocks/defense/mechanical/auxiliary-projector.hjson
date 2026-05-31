@@ -31,8 +31,27 @@ shieldBreakEffect: {
       baseLength: 0
       sizeFrom: 196
       sizeTo: 64
+      lifetime: 150
+      interp: pow10In
+      offsetX: 0
+      offsetY: 0
+      lightColor: adcff3
+    }
+    {
+      type: ParticleEffect
+      region: lost-auxiliary-break
+      colorFrom: adcff3
+      colorTo: adcff300
+      particles: 1
+      cone: 0
+      useRotation: false
+      randLength: false
+      length: 0
+      baseLength: 0
+      sizeFrom: 144
+      sizeTo: 32
       lifetime: 180
-      interp: pow2In
+      interp: pow10In
       offsetX: 0
       offsetY: 0
       lightColor: adcff3
