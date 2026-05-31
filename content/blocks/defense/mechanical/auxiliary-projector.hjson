@@ -55,11 +55,26 @@ shieldBreakEffect: {
       colorFrom: adcff377
       colorTo: adcff30d
       particles: 7
-      cone: 3
-      length: 221
+      cone: 360
+      length: 133
       baseLength: 0
       sizeFrom: 5
       sizeTo: 0
+      interp: pow2In
+      offsetX: 0
+      offsetY: 0
+      lightColor: adcff3
+    }
+    {
+      type: ParticleEffect
+      colorFrom: adcff350
+      colorTo: adcff300
+      particles: 10
+      cone: 360
+      length: 221
+      baseLength: 0
+      sizeFrom: 7
+      sizeTo: 1
       interp: pow2In
       offsetX: 0
       offsetY: 0
