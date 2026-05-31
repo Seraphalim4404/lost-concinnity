@@ -3,4 +3,6 @@ flammability: 0
 viscosity: 0.55
 heatCapacity: 0.5
 explosiveness: 0
+boilPoint: 0.5
+coolant: false
 color: a63d3d
