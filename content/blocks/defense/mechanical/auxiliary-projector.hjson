@@ -20,6 +20,24 @@ shieldBreakEffect: {
   effects: [
     {
       type: ParticleEffect
+      region: lost-auxiliary-break
+      colorFrom: adcff3
+      colorTo: adcff300
+      particles: 1
+      cone: 0
+      randLength: false
+      length: 0
+      baseLength: 0
+      sizeFrom: 48
+      sizeTo: 24
+      lifetime: 180
+      interp: pow2In
+      offsetX: 0
+      offsetY: 0
+      lightColor: adcff3
+    }
+    {
+      type: ParticleEffect
       colorFrom: adcff377
       colorTo: adcff30d
       particles: 7
