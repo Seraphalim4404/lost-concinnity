@@ -1,6 +1,6 @@
 type: Conduit
 health: 350
-armor: 50
+armor: 10
 liquidCapacity: 20
 liquidPressure: 1
 requirements: [
