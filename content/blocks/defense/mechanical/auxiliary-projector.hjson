@@ -48,7 +48,7 @@ shieldBreakEffect: {
       randLength: false
       length: 0
       baseLength: 0
-      sizeFrom: 166
+      sizeFrom: 172
       sizeTo: 32
       lifetime: 60
       interp: pow10In
