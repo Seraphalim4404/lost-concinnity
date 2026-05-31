@@ -19,7 +19,7 @@ drawer: {
         {
           type: ShapePart
           color: 86a8ca
-          colorTo: 86a8ca00
+          colorTo: ffffff
           circle: false
           hollow: false
           mirror: false
@@ -27,6 +27,7 @@ drawer: {
           radius: 280
           radiusTo: 32
           rotation: 45
+          layer: 125
           progress: {
             type: reload
             interp: pow10in
