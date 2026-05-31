@@ -3,7 +3,7 @@ size: 5
 health: 5000
 armor: 50
 
-display: true
+display: false
 radius: 270
 sides: 4
 shieldRotation: 45
