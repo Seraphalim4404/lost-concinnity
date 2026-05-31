@@ -13,12 +13,29 @@ cooldownLiquid: 2
 drawer: {
   type: DrawMulti
   drawers: [
-    type: DrawPart
-    parts: [
-      {
-      }
-    ]
-
+    {
+      type: DrawPart
+      parts: [
+        {
+          type: ShapePart
+          color: 86a8ca
+          colorTo: 86a8ca00
+          circle: false
+          hollow: false
+          mirror: false
+          sides: 4
+          radius: 264
+          radiusTo: 32
+          rotation: 45
+          progress: {
+            type: reload
+            interp: pow10in
+          }
+        }
+      ]
+    }
+  ]
+}
 requirements: [
   zeel/144
 ]
