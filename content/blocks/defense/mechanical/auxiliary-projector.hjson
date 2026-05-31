@@ -37,7 +37,7 @@ shieldBreakEffect: {
       sides: 4
       sizeFrom: 266
       sizeTo: 88
-      rotation: 45
+      rotation: 0
       strokeFrom: 3
       strokeTo: 1.2
       lifetime: 120
@@ -56,7 +56,7 @@ shieldBreakEffect: {
       sides: 4
       sizeFrom: 202
       sizeTo: 24
-      rotation: 45
+      rotation: 0
       strokeFrom: 1.5
       strokeTo: 0.3
       lifetime: 120
