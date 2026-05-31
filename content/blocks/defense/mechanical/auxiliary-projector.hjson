@@ -19,26 +19,6 @@ shieldBreakEffect: {
   type: MultiEffect
   effects: [
     {
-      type: WaveEffect
-      clip: 360
-      baseRotation: 0
-      followParent: true
-      rotWithParent: true
-      useRotation: false
-      colorFrom: adcff3
-      colorTo: adcff300
-      sides: 4
-      sizeFrom: 266
-      sizeTo: 88
-      rotation: 45
-      strokeFrom: 3
-      strokeTo: 1.2
-      lifetime: 120
-      interp: pow10In
-      offsetX: 0
-      offsetY: 0
-    }
-    {
       type: ParticleEffect
       region: lost-auxiliary-break
       colorFrom: adcff3
@@ -49,8 +29,8 @@ shieldBreakEffect: {
       randLength: false
       length: 0
       baseLength: 0
-      sizeFrom: 128
-      sizeTo: 32
+      sizeFrom: 196
+      sizeTo: 64
       lifetime: 180
       interp: pow2In
       offsetX: 0
