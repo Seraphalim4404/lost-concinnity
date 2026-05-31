@@ -3,41 +3,21 @@ size: 5
 health: 5000
 armor: 50
 
-display: false
-radius: 270
+radius: 266
 sides: 4
 shieldRotation: 45
 shieldHealth: 50000
-cooldownNormal: 1
-cooldownLiquid: 2
-drawer: {
-  type: DrawMulti
-  drawers: [
-    {
-      type: DrawPart
-      parts: [
-        {
-          type: ShapePart
-          color: 86a8ca
-          colorTo: ffffff
-          circle: false
-          hollow: false
-          mirror: false
-          sides: 4
-          radius: 280
-          radiusTo: 32
-          rotation: 45
-          layer: 125
-          progress: {
-            type: reload
-            interp: pow10in
-          }
-        }
-      ]
-    }
-  ]
+cooldownNormal: 2.5
+cooldownLiquid: 5
+cooldownBrokenBase: 50
+hasItems: false
+consumes: {
+  power: 50
+  liquids: {
+    frigidus/2
+  }
 }
 requirements: [
   zeel/144
 ]
-category: defense
+category: effect
