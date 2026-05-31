@@ -4,7 +4,7 @@ health: 5000
 armor: 50
 
 display: true
-radius: 256
+radius: 270
 sides: 4
 shieldRotation: 45
 shieldHealth: 50000
