@@ -15,13 +15,6 @@ hasLiquids: false
 consumeCoolant: false
 consumes: {
   power: 50
-  liquids: {
-    liquids: [
-      frigidus/2
-    ]
-    optional: true
-    booster: true
-  }
 }
 
 shieldBreakEffect: {
