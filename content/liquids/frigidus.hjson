@@ -1,0 +1,8 @@
+temperature: 0.2
+flammability: 0
+viscosity: 0.95
+heatCapacity: 0.95
+explosiveness: 0
+boilPoint: 0.9
+lightColor: bbe5ff
+color: bbe5ff
