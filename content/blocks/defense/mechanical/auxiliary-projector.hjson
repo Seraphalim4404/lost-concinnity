@@ -3,9 +3,19 @@ size: 5
 health: 5000
 armor: 50
 
-radius: 80
+display: true
+radius: 200
 sides: 4
-shieldHealth: 6000
+shieldRotation: 45
+shieldHealth: 50000
+cooldownNormal: 1
+cooldownLiquid: 2
+drawer: {
+  type: DrawMulti
+  drawers: [
+    type: DrawRegion
+    suffix: 
+
 requirements: [
   zeel/144
 ]
