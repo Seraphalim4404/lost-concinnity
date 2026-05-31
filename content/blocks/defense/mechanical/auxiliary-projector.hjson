@@ -37,7 +37,7 @@ shieldBreakEffect: {
       baseLength: 0
       sizeFrom: 96
       sizeTo: 32
-      lifetime: 180
+      lifetime: 120
       interp: pow10In
       offsetX: 0
       offsetY: 0
@@ -54,10 +54,10 @@ shieldBreakEffect: {
       sides: 4
       sizeFrom: 266
       sizeTo: 88
-      rotation: 20
+      rotation: 60
       strokeFrom: 3
       strokeTo: 1.2
-      lifetime: 180
+      lifetime: 120
       interp: pow10In
       offsetX: 0
       offsetY: 0
@@ -73,10 +73,10 @@ shieldBreakEffect: {
       sides: 4
       sizeFrom: 202
       sizeTo: 24
-      rotation: 20
+      rotation: 60
       strokeFrom: 1.5
       strokeTo: 0.3
-      lifetime: 180
+      lifetime: 120
       interp: pow10In
       offsetX: 0
       offsetY: 0
@@ -91,7 +91,7 @@ shieldBreakEffect: {
       baseLength: 0
       sizeFrom: 5
       sizeTo: 0
-      lifetime: 300
+      lifetime: 180
       interp: pow2In
       offsetX: 0
       offsetY: 0
@@ -107,7 +107,7 @@ shieldBreakEffect: {
       baseLength: 0
       sizeFrom: 7
       sizeTo: 1
-      lifetime: 300
+      lifetime: 180
       interp: pow2In
       offsetX: 0
       offsetY: 0
@@ -122,7 +122,7 @@ shieldBreakEffect: {
       rotation: 0
       strokeFrom: 4.25
       strokeTo: 0
-      lifetime: 180
+      lifetime: 120
       interp: fastSlow
       offsetX: 0
       offsetY: 0
