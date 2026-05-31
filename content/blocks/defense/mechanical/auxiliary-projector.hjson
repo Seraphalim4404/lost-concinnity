@@ -26,6 +26,22 @@ shieldBreakEffect: {
   type: MultiEffect
   effects: [
     {
+      type: ParticleEffect
+      region: "auxiliary-break"
+      colorFrom: adcff3
+      colorTo: adcff300
+      particles: 1
+      cone: 0
+      length: 0
+      baseLength: 0
+      sizeFrom: 48
+      sizeTo: 24
+      interp: pow10In
+      offsetX: 0
+      offsetY: 0
+      lightColor: adcff3
+    }
+    {
       type: WaveEffect
       clip: 360
       baseRotation: 0
