@@ -7,7 +7,7 @@ radius: 266
 sides: 4
 shieldRotation: 45
 shieldHealth: 50000
-cooldownNormal: 1.5
+cooldownNormal: 2.5
 cooldownLiquid: 5
 cooldownBrokenBase: 50
 hasItems: false
