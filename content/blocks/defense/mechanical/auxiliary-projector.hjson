@@ -24,7 +24,7 @@ drawer: {
           hollow: false
           mirror: false
           sides: 4
-          radius: 264
+          radius: 280
           radiusTo: 32
           rotation: 45
           progress: {
