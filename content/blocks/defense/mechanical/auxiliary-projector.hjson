@@ -24,89 +24,21 @@ consumes: {
 }
 
 shieldBreakEffect: {
-  type: MultiEffect
-  effects: [
-    {
-      type: WaveEffect
-      clip: 360
-      baseRotation: 0
-      colorFrom: adcff3
-      colorTo: adcff300
-      sides: 4
-      sizeFrom: 266
-      sizeTo: 88
-      rotation: 0
-      strokeFrom: 3
-      strokeTo: 1.2
-      lifetime: 120
-      interp: pow10In
-      offsetX: 0
-      offsetY: 0
-    }
-    {
-      type: WaveEffect
-      clip: 360
-      baseRotation: 0
-      colorFrom: adcffbe
-      colorTo: adcff300
-      sides: 4
-      sizeFrom: 202
-      sizeTo: 24
-      rotation: 0
-      strokeFrom: 1.5
-      strokeTo: 0.3
-      lifetime: 120
-      interp: pow10In
-      offsetX: 0
-      offsetY: 0
-    }
-    {
-      type: ParticleEffect
-      colorFrom: adcff377
-      colorTo: adcff30d
-      particles: 7
-      cone: 360
-      length: 133
-      baseLength: 0
-      sizeFrom: 5
-      sizeTo: 0
-      lifetime: 180
-      interp: pow2In
-      offsetX: 0
-      offsetY: 0
-      lightColor: adcff3
-    }
-    {
-      type: ParticleEffect
-      colorFrom: adcff350
-      colorTo: adcff300
-      particles: 10
-      cone: 360
-      length: 221
-      baseLength: 0
-      sizeFrom: 7
-      sizeTo: 1
-      lifetime: 180
-      interp: pow2In
-      offsetX: 0
-      offsetY: 0
-      lightColor: adcff3
-    }
-    {
-      type: WaveEffect
-      colorFrom: adcff3ff
-      colorTo: adcff300
-      sizeFrom: 8
-      sizeTo: 176
-      rotation: 0
-      strokeFrom: 4.25
-      strokeTo: 0
-      lifetime: 120
-      interp: fastSlow
-      offsetX: 0
-      offsetY: 0
-    }
-  ]
+  type: WaveEffect
+  clip: 360
+  baseRotation: 0
+  colorFrom: adcff3
+  colorTo: adcff300
+  sides: 4
+  sizeFrom: 266
+  sizeTo: 88
+  rotation: 0
+  strokeFrom: 3
+  strokeTo: 1.2
+  lifetime: 120
+  interp: pow10In
+  offsetX: 0
+  offsetY: 0
 }
 requirements: [
   zeel/144
