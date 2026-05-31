@@ -10,11 +10,14 @@ shieldRotation: 45
 shieldHealth: 50000
 cooldownNormal: 1
 cooldownLiquid: 2
-//drawer: {
-  //type: DrawMulti
-  //drawers: [
-    //type: DrawRegion
-    //suffix: 
+drawer: {
+  type: DrawMulti
+  drawers: [
+    type: DrawPart
+    parts: [
+      {
+      }
+    ]
 
 requirements: [
   zeel/144
