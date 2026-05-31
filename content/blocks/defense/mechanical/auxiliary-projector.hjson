@@ -30,8 +30,8 @@ shieldBreakEffect: {
       length: 0
       baseLength: 0
       sizeFrom: 196
-      sizeTo: 64
-      lifetime: 100
+      sizeTo: 98
+      lifetime: 150
       interp: pow10In
       offsetX: 0
       offsetY: 0
@@ -48,9 +48,9 @@ shieldBreakEffect: {
       randLength: false
       length: 0
       baseLength: 0
-      sizeFrom: 172
-      sizeTo: 32
-      lifetime: 60
+      sizeFrom: 188
+      sizeTo: 94
+      lifetime: 150
       interp: pow10In
       offsetX: 0
       offsetY: 0
