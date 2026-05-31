@@ -25,11 +25,12 @@ shieldBreakEffect: {
       colorTo: adcff300
       particles: 1
       cone: 0
+      useRotation: false
       randLength: false
       length: 0
       baseLength: 0
-      sizeFrom: 48
-      sizeTo: 24
+      sizeFrom: 96
+      sizeTo: 22
       lifetime: 180
       interp: pow2In
       offsetX: 0
