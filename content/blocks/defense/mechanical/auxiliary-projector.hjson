@@ -30,8 +30,6 @@ shieldBreakEffect: {
       type: WaveEffect
       clip: 360
       baseRotation: 0
-      followParent: true
-      rotWithParent: true
       colorFrom: adcff3
       colorTo: adcff300
       sides: 4
@@ -49,8 +47,6 @@ shieldBreakEffect: {
       type: WaveEffect
       clip: 360
       baseRotation: 0
-      followParent: true
-      rotWithParent: true
       colorFrom: adcffbe
       colorTo: adcff300
       sides: 4
