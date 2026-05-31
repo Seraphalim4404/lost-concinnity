@@ -31,7 +31,7 @@ shieldBreakEffect: {
       baseLength: 0
       sizeFrom: 196
       sizeTo: 172
-      interp: pow10In
+      interp: pow3In
       offsetX: 0
       offsetY: 0
       lightColor: adcff3
@@ -49,7 +49,7 @@ shieldBreakEffect: {
       baseLength: 0
       sizeFrom: 174
       sizeTo: 150
-      interp: pow10In
+      interp: pow3In
       offsetX: 0
       offsetY: 0
       lightColor: adcff3
