@@ -10,7 +10,7 @@ coolant: false
 blockReactive: false
 moveThroughBlocks: true
 incinerable: false
-spreadTarget: water
+spreadTarget: unstable-water
 removeScaling: 1
 
 colorFrom: 252525
