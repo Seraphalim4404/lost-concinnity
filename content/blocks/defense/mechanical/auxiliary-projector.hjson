@@ -27,7 +27,7 @@ shieldBreakEffect: {
   effects: [
     {
       type: ParticleEffect
-      region: "auxiliary-break"
+      region: lost-auxiliary-break
       colorFrom: adcff3
       colorTo: adcff300
       particles: 1
