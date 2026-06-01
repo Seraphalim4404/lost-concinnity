@@ -15,25 +15,33 @@ consumes: {
 drillEffect: [
   {
     type: WaveEffect
-    lifetime: 60
+    colorFrom: f9d7ca
+    colorTo: f9d7ca00
+    sizeFrom: 8
+    sizeTo: 150
+    rotation: 0
+    strokeFrom: 2.5
+    strokeTo: 0.5
+    lifetime: 120
     interp: pow3Out
-    sizeFrom: 0
-    sizeTo: 30
-    strokeFrom: 4
-    strokeTo: 0
-    colorFrom: 90a2fc
-    colorTo: 7382f0
+    offsetX: 0
+    offsetY: 0
   }
   {
-    length: 0
-    particles: 1
-    lifetime: 30
-    useRotation: false
-    region: allure-diamond-thin
-    sizeFrom: 60
-    sizeTo: 0
-    colorFrom: 90a2fc
-    colorTo: 7382f0
+    type: ParticleEffect
+    colorFrom: e1e1e18b
+    colorTo: e1e1e100
+    particles: 6
+    cone: 360
+    length: 88
+    baseLength: 0
+    sizeFrom: 4
+    sizeTo: 1
+    lifetime: 150
+    interp: pow2In
+    offsetX: 0
+    offsetY: 0
+    lightColor: e1e1e18b
   }
 ]
 
