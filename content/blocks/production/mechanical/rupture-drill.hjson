@@ -1,0 +1,9 @@
+Type: BurstDrill
+squareSprite: false
+size: 3
+  
+drillTime: 180
+liquidCapacity: 200
+itemCapacity: 50
+tier: 3
+shake: 10
