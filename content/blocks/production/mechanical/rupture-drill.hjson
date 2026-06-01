@@ -7,3 +7,39 @@ liquidCapacity: 200
 itemCapacity: 50
 tier: 3
 shake: 10
+
+consumes: {
+  power: 1.5
+}
+
+drillEffect: [
+  {
+    type: WaveEffect
+    lifetime: 60
+    interp: pow3Out
+    sizeFrom: 0
+    sizeTo: 30
+    strokeFrom: 4
+    strokeTo: 0
+    colorFrom: 90a2fc
+    colorTo: 7382f0
+  }
+  {
+    length: 0
+    particles: 1
+    lifetime: 30
+    useRotation: false
+    region: allure-diamond-thin
+    sizeFrom: 60
+    sizeTo: 0
+    colorFrom: 90a2fc
+    colorTo: 7382f0
+  }
+]
+
+requirements: [
+  lycite/150
+  myacine/75
+  pure-lead/75
+]
+category: production
