@@ -8,6 +8,6 @@ cost: 1
 color: b38aff
 alwaysUnlocked: true
 research: {
-  parent: myacine
+  parent: lycite
 }
 shownPlanets: [umbraline]
