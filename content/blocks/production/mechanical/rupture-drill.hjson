@@ -50,4 +50,8 @@ requirements: [
   myacine/75
   pure-lead/75
 ]
+research: {
+  researchCostMultiplier: 2
+  parent: core-remnant
+}
 category: production
