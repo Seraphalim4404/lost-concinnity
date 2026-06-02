@@ -19,8 +19,8 @@ drillEffect: [
     type: WaveEffect
     colorFrom: f9d7ca
     colorTo: f9d7ca00
-    sizeFrom: 80
-    sizeTo: 24
+    sizeFrom: 60
+    sizeTo: 12
     rotation: 0
     strokeFrom: 2.5
     strokeTo: 0.5
