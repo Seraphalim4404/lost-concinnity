@@ -1,8 +1,8 @@
 Type: BurstDrill
 squareSprite: false
-size: 3
+size: 4
   
-drillTime: 180
+drillTime: 300
 liquidCapacity: 200
 itemCapacity: 50
 tier: 3
@@ -12,13 +12,15 @@ consumes: {
   power: 1.5
 }
 
+arrows: 2
+arrowSpacing: 8
 drillEffect: [
   {
     type: WaveEffect
     colorFrom: f9d7ca
     colorTo: f9d7ca00
-    sizeFrom: 8
-    sizeTo: 150
+    sizeFrom: 80
+    sizeTo: 8
     rotation: 0
     strokeFrom: 2.5
     strokeTo: 0.5
@@ -28,20 +30,24 @@ drillEffect: [
     offsetY: 0
   }
   {
-    type: ParticleEffect
-    colorFrom: e1e1e18b
-    colorTo: e1e1e100
-    particles: 6
-    cone: 360
-    length: 88
-    baseLength: 0
-    sizeFrom: 4
-    sizeTo: 1
-    lifetime: 150
-    interp: pow2In
-    offsetX: 0
-    offsetY: 0
-    lightColor: e1e1e18b
+    type: RadialEffect
+    lengthOffset: 6
+    effect: {
+      type: ParticleEffect
+      colorFrom: e1e1e18b
+      colorTo: e1e1e100
+      particles: 6
+      cone: 60
+      length: 55
+      baseLength: 0
+      sizeFrom: 4
+      sizeTo: 1
+      lifetime: 150
+      interp: pow2In
+      offsetX: 0
+      offsetY: 0
+      lightColor: e1e1e18b
+    }
   }
 ]
 
