@@ -25,7 +25,7 @@ drillEffect: [
     strokeFrom: 2.5
     strokeTo: 0.5
     lifetime: 120
-    interp: pow2Out
+    interp: pow5Out
     offsetX: 0
     offsetY: 0
   }
@@ -37,7 +37,7 @@ drillEffect: [
       colorFrom: e1e1e18b
       colorTo: e1e1e100
       particles: 6
-      cone: 2
+      cone: 30
       length: 55
       baseLength: 0
       sizeFrom: 2
