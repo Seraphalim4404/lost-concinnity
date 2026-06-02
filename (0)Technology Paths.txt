@@ -1,0 +1,14 @@
+<<<<Bladeworks Production Path>>>>
+[Bladeworks Path]
+Mostly works on attack-type units as well as developing advanced turrets for offensive
+and defensive play. Provides unique turrets as well as armored structures.
+
+<<<<Serenity's Descent Path>>>>
+[Serenity Path]
+Specializes on defense works and protection. A faction that relies on defensive gameplay
+and support including units and turrets with heavy armor.
+
+<<<<Luminary's Glacia Path>>>>
+[Luminary Path]
+Exclusive Tech Tree that specializes in mostly in research, bioengineering and weaponry,
+rarely includes defensive blocks but contains highly advanced works. 
