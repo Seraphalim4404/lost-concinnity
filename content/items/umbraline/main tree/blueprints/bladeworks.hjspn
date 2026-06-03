@@ -1,0 +1,13 @@
+explosiveness: 0
+flammability: 0
+radioactivity: 0
+charge: 0
+hardness: 100
+cost: 0
+
+color: 5e75f6
+alwaysUnlocked: true
+research: {
+  parent: core-remnant
+}
+shownPlanets: [umbraline]
