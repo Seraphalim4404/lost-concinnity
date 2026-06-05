@@ -1,0 +1,42 @@
+type: PowerTurret
+size: 6
+health: 6800
+armor: 25
+rotateSpeed: 2
+range: 500
+shake: 4
+trackingRange: 560
+liquidCapacity: 500
+shoot: {
+  type: ShootMulti
+  source: {
+    type: ShootAlternate
+  }
+  dest: [
+    {
+      type: ShootBarrel
+      shots: 1
+      barrels: [
+      -5, 0, 0
+      -9, 0, 0 
+      ]
+    }
+    {
+      type: ShootBarrel
+      shots: 1
+      barrels: [
+      5, 0, 0
+      9, 0, 0
+      ]
+    }
+ammoTypes: {
+  tungsten-cube: {
+    type: BasicBulletType
+    height: 32
+    width: 10
+    hitSize: 15
+    damage: 32
+    speed: 8
+    lifetime: 60
+  }
+  
