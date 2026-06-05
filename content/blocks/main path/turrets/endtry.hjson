@@ -1,4 +1,4 @@
-type: PowerTurret
+type: ItemTurret
 size: 6
 health: 6800
 armor: 25
