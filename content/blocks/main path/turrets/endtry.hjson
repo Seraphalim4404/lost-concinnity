@@ -1,4 +1,5 @@
 type: ItemTurret
+squareSprite: false
 size: 6
 health: 6800
 armor: 25
@@ -7,6 +8,8 @@ range: 500
 shake: 4
 trackingRange: 560
 liquidCapacity: 500
+maxAmmo: 50
+ammoPerShot: 1
 shoot: {
   type: ShootMulti
   source: {
