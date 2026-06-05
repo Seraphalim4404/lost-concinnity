@@ -47,4 +47,9 @@ ammoTypes: {
   }
 }
 
+requirements: [
+  adhite/200
+  salgo/450
+  tungsten-cube/175
+]
 category: turret
