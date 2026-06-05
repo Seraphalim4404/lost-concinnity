@@ -42,4 +42,4 @@ ammoTypes: {
     speed: 8
     lifetime: 60
   }
-  
+}
