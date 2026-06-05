@@ -29,6 +29,9 @@ shoot: {
       9, 0, 0
       ]
     }
+  ]
+}
+reload: 15
 ammoTypes: {
   tungsten-cube: {
     type: BasicBulletType
