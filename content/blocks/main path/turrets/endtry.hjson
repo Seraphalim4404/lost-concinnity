@@ -43,3 +43,5 @@ ammoTypes: {
     lifetime: 60
   }
 }
+
+category: turret
