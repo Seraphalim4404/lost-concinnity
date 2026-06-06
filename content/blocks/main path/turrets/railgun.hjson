@@ -38,7 +38,7 @@ shootType: {
 
   trailLength: 666
   trailWidht: 6
-  trailInterval: 0.001
+  trailEffect: pointBeam
 }
 
 requirements: [
