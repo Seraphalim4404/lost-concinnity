@@ -19,12 +19,12 @@ shootSound: railgunShoot
 shootType: {
   type: BasicBulletType
   scaleLife: false
-  height: 32
-  width: 10
+  height: 0
+  width: 0
   hitSize: 32
   damage: 7200
-  speed: 80
-  lifetime: 8.5
+  speed: 160
+  lifetime: 4.25
   drag: 0
   
   shootEffect: none
