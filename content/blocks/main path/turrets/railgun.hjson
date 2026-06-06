@@ -9,7 +9,7 @@ trackingRange: 680
 liquidCapacity: 500
 drawLiquidLight: true
 consumes: {
-  power: 2
+  power: 60
 }
 shootCone: 1
 recoils: 2
@@ -38,3 +38,10 @@ shootType: {
   trailLength: 100
   trailWidth: 10
 }
+
+requirements: [
+  adhite/200
+  salgo/450
+  tungsten-cube/175
+]
+category: turret
