@@ -18,13 +18,13 @@ reload: 300
 shootSound: railgunShoot
 shootType: {
   type: BasicBulletType
-  scaleLife: true
+  scaleLife: false
   height: 32
   width: 10
   hitSize: 32
   damage: 7200
-  speed: 160
-  lifetime: 4.25
+  speed: 80
+  lifetime: 8.5
   drag: 0
   
   shootEffect: none
@@ -38,7 +38,7 @@ shootType: {
   
   trailLength: 100
   trailWidth: 6
-  trailInterval: 0.1
+  trailInterval: 0.5
 }
 
 requirements: [
