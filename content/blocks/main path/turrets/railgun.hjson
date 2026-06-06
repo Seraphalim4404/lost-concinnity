@@ -18,9 +18,9 @@ shootSound: railgunShoot
 shootType: {
   type: BasicBulletType
   scaleLife: false
-  height: 0
-  width: 0
-  hitSize: 12
+  height: 32
+  width: 10
+  hitSize: 14
   damage: 7200
   speed: 680
   lifetime: 1
@@ -36,7 +36,7 @@ shootType: {
   trailColor: 91aaff
   
   trailLength: 100
-  trailWidth: 10
+  trailWidth: 12
 }
 
 requirements: [
