@@ -6,6 +6,7 @@ rotateSpeed: 1
 range: 800
 shake: 2
 trackingRange: 680
+predictTarget: false
 liquidCapacity: 500
 drawLiquidLight: true
 consumes: {
