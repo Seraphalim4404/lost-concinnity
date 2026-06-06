@@ -22,8 +22,8 @@ shootType: {
   width: 0
   hitSize: 12
   damage: 7200
-  speed: 680
-  lifetime: 1
+  speed: 160
+  lifetime: 4.25
   drag: 0
   
   shootEffect: none
