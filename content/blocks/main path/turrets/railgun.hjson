@@ -20,10 +20,10 @@ shootType: {
   scaleLife: true
   height: 32
   width: 10
-  hitSize: 14
+  hitSize: 32
   damage: 7200
-  speed: 80
-  lifetime: 8.5
+  speed: 160
+  lifetime: 4.25
   drag: 0
   
   shootEffect: none
@@ -36,7 +36,8 @@ shootType: {
   trailColor: 91aaff
   
   trailLength: 100
-  trailWidth: 12
+  trailWidth: 6
+  trailInterval: 0.1
 }
 
 requirements: [
