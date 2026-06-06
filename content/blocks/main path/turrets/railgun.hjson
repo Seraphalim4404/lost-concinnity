@@ -33,7 +33,7 @@ shootType: {
   frontColor: 91aaff
   backColor: 91aaff
   hitColor: 91aaff
-  hitColor: 91aaff
+  trailColor: 91aaff
   
   trailLength: 100
   trailWidth: 10
