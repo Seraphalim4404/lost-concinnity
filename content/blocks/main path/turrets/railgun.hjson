@@ -1,0 +1,40 @@
+type: PowerTurret
+size: 6
+health: 8000
+armor: 30
+rotateSpeed: 1
+range: 800
+shake: 2
+trackingRange: 680
+liquidCapacity: 500
+drawLiquidLight: true
+consumes: {
+  power: 2
+}
+shootCone: 1
+recoils: 2
+reload: 300
+shootSound: railgunShoot
+shootType: {
+  type: BasicBulletType
+  scaleLife: true
+  height: 0
+  width: 0
+  hitSize: 12
+  damage: 7200
+  speed: 680
+  lifetime: 1
+  drag: 0
+  
+  shootEffect: none
+  hitEffect: none
+  despawnEffect: none
+
+  frontColor: 91aaff
+  backColor: 91aaff
+  hitColor: 91aaff
+  hitColor: 91aaff
+  
+  trailLength: 100
+  trailWidth: 10
+}
