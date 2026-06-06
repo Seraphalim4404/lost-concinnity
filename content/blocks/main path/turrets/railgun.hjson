@@ -21,7 +21,7 @@ shootType: {
   scaleLife: false
   height: 0
   width: 0
-  hitSize: 32
+  hitSize: 16
   damage: 7200
   speed: 160
   lifetime: 4.25
@@ -36,7 +36,7 @@ shootType: {
   hitColor: 91aaff
   trailColor: 91aaff
   
-  trailInterval: 0.01
+  trailInterval: 0.001
 }
 
 requirements: [
