@@ -36,9 +36,7 @@ shootType: {
   hitColor: 91aaff
   trailColor: 91aaff
   
-  trailLength: 100
-  trailWidth: 6
-  trailInterval: 0.5
+  trailInterval: 0.01
 }
 
 requirements: [
