@@ -35,7 +35,9 @@ shootType: {
   backColor: 91aaff
   hitColor: 91aaff
   trailColor: 91aaff
-  
+
+  trailLength: 666
+  trailWidht: 6
   trailInterval: 0.001
 }
 
