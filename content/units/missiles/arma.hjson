@@ -1,0 +1,5 @@
+type: missile
+template: MissileUnitType
+speed: 0
+lifetime: 60
+rotateSpeed: 30
