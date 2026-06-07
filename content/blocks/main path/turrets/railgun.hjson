@@ -49,8 +49,8 @@ shootType: {
     line: true
     strokeFrom: 10
     strokeTo: 10
-    lenFrom: 11.25
-    lenTo: 11.25
+    lenFrom: 10.25
+    lenTo: 10.25
     offsetX: 0
     offsetY: 0
     lightColor: adcff3
