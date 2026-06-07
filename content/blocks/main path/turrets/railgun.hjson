@@ -25,7 +25,7 @@ shootType: {
   reflectable: true
 
   pierce: false
-  pierceDamageFactory: 0
+  pierceDamageFactor: 0
   pierceBuilding: false
   
   shootEffect: none
@@ -36,7 +36,7 @@ shootType: {
     colorFrom: adcff3
     colorTo: adcff300
     particles: 1
-    cone: 0
+    cone: 360
     useRotation: false
     followParent: true
     rotWithParent: true
@@ -59,8 +59,6 @@ shootType: {
   pointEffectSpace: 20
   despawnEffect: none
 
-  frontColor: 91aaff
-  backColor: 91aaff
   hitColor: 91aaff
   trailColor: 91aaff
 
