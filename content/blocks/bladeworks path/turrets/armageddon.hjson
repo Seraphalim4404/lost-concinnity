@@ -19,7 +19,7 @@ shootType: {
   speed: 0
   lifetime: 1
   spawnUnit: arma
-  angleOffset: 45
+  angleOffset: 135
 }
 
 requirements: [
