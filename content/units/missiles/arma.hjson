@@ -7,12 +7,14 @@ rotateSpeed: 1
 weapons: [
   {
     alwaysContinuous: true
+    alwaysShooting: true
+    baseRotation: 90
     bullet: {
       type: ContinuousLaserBulletType
       length: 300
       damage: 100
       lifetime: 180
-      fadetime: 30
+      fadeTime: 30
     }
   }
 ]
