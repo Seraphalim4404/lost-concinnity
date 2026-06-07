@@ -36,10 +36,10 @@ shootType: {
     colorFrom: adcff3
     colorTo: adcff300
     particles: 1
-    cone: 360
+    cone: 0
     useRotation: true
-    followParent: true
-    rotWithParent: true
+    //followParent: true
+    //rotWithParent: true
     randLength: false
     length: 0
     baseLength: 0
