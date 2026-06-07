@@ -1,0 +1,19 @@
+type: Missile
+template: MissileUnitType
+speed: 0
+lifetime: 180
+health: 1000
+rotateSpeed: 1
+weapons: [
+  {
+    alwaysContinuous: true
+    bullet: {
+      type: ContinuousLaserBulletType
+      length: 300
+      damage: 100
+      lifetime: 180
+      fadetime: 30
+    }
+  }
+]
+  
