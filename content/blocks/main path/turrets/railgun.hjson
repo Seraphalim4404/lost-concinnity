@@ -49,7 +49,7 @@ shootType: {
     line: true
     strokeFrom: 8
     strokeTo: 8
-    lenFrom: 30
+    lenFrom: 28
     lenTo: 28
     offsetX: 0
     offsetY: 0
