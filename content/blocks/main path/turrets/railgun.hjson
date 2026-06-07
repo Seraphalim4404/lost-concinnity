@@ -38,6 +38,8 @@ shootType: {
     particles: 1
     cone: 0
     useRotation: true
+    followParent: true
+    rotWithParent: true
     randLength: false
     length: 0
     baseLength: 0
