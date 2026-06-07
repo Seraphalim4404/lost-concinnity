@@ -14,8 +14,12 @@ consumes: {
 }
 shootCone: 1
 recoils: 2
-reload: 300
+reload: 450
+minWarmup: 0.8
 shootSound: railgunShoot
+soundPitchMin: 0.9
+soundPitchMax: 0.9
+chargeSound: railgunWarmUp
 shootType: {
   type: RailBulletType
   length: 680
