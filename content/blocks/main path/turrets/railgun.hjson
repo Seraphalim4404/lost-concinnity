@@ -47,8 +47,8 @@ shootType: {
     sizeTo: 172
     lifetime: 120
     line: true
-    strokeFrom: 8
-    strokeTo: 8
+    strokeFrom: 12
+    strokeTo: 12
     lenFrom: 28
     lenTo: 28
     offsetX: 0
