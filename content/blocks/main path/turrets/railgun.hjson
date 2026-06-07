@@ -19,10 +19,18 @@ shoot: {
 }
 reload: 720
 shootSound: railgunShoot
-shootSoundVolume: 2.25
+shootSoundVolume: 1.88
 soundPitchMin: 0.8
 soundPitchMax: 0.8
-chargeSound: railgunWarmUp
+chargeSound: {
+  type: SoundEffect
+  sound: railgunWarmUp
+  minPitch: 1
+  maxPitch: 1
+  minVolume: 2.1
+  maxVolume: 2.1
+  effect: none
+}
 shootType: {
   type: RailBulletType
   length: 680
