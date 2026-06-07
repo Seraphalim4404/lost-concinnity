@@ -33,6 +33,26 @@ shootType: {
   smokeEffect: none
   pointEffect: {
     type: ParticleEffect
+    colorFrom: adcff3
+    colorTo: adcff300
+    particles: 1
+    cone: 0
+    useRotation: true
+    randLength: false
+    length: 0
+    baseLength: 0
+    sizeFrom: 196
+    sizeTo: 172
+    lifetime: 240
+    line: true
+    strokeFrom: 8
+    strokeTo: 8
+    lenFrom: 22
+    lenTo: 22
+    offsetX: 0
+    offsetY: 0
+    lightColor: adcff3
+    }
   }
   pointEffectSpace: 20
   despawnEffect: none
