@@ -19,8 +19,9 @@ shoot: {
 }
 reload: 720
 shootSound: railgunShoot
-soundPitchMin: 0.9
-soundPitchMax: 0.9
+shootSoundVolume: 3
+soundPitchMin: 0.8
+soundPitchMax: 0.8
 chargeSound: railgunWarmUp
 shootType: {
   type: RailBulletType
