@@ -36,16 +36,16 @@ shootType: {
     colorFrom: adcff3
     colorTo: adcff300
     particles: 1
-    cone: 360
+    cone: 0
     useRotation: true
     followParent: true
     rotWithParent: true
     randLength: false
-    length: 0
+    length: 1
     baseLength: 0
     sizeFrom: 196
     sizeTo: 172
-    lifetime: 240
+    lifetime: 120
     line: true
     strokeFrom: 8
     strokeTo: 8
