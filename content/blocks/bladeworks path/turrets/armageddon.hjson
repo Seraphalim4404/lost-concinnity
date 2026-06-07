@@ -27,4 +27,4 @@ shootType: {
 requirements: [
   zeel/100
 ]
-category: turrets
+category: turret
