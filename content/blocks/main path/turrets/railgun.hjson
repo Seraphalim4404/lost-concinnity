@@ -15,7 +15,7 @@ consumes: {
 shootCone: 1
 recoils: 2
 shoot: {
-  firstShotDelay: 360
+  firstShotDelay: 400
 }
 reload: 720
 shootSound: railgunShoot
