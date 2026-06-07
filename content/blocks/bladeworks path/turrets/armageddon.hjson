@@ -19,10 +19,8 @@ shoot: {
 }
 reload: 240
 shootType: {
-  type: ContinuousLaserBulletType
-  lifetime: 300
-  damage: 10
-  spin: 3
+  instantDisappear: true
+  spawnUnit: arma
 }
 
 requirements: [
