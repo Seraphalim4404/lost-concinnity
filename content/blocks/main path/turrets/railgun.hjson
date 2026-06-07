@@ -52,7 +52,7 @@ shootType: {
     offsetX: 0
     offsetY: 0
     lightColor: adcff3
-    }
+
   }
   pointEffectSpace: 20
   despawnEffect: none
