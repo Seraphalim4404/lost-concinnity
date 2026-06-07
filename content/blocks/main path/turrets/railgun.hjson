@@ -25,7 +25,7 @@ shootType: {
   reflectable: true
 
   pierce: false
-  pierceDamageFactor: 1
+  pierceDamageFactor: 10
   pierceBuilding: false
   
   shootEffect: none
