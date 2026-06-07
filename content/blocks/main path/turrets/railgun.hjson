@@ -22,15 +22,7 @@ shootSound: railgunShoot
 shootSoundVolume: 1.88
 soundPitchMin: 0.8
 soundPitchMax: 0.8
-chargeSound: {
-  type: SoundEffect
-  sound: railgunWarmUp
-  minPitch: 1
-  maxPitch: 1
-  minVolume: 2.1
-  maxVolume: 2.1
-  effect: none
-}
+chargeSound: railgunWarmUp
 shootType: {
   type: RailBulletType
   length: 680
