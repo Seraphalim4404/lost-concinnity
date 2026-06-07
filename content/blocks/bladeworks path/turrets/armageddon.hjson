@@ -21,7 +21,8 @@ reload: 240
 shootType: {
   type: ContinuousLaserBulletType
   lifetime: 300
-  rotateSpeed: 3
+  damage: 10
+  spin: 3
 }
 
 requirements: [
