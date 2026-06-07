@@ -41,7 +41,7 @@ shootType: {
     followParent: true
     rotWithParent: true
     randLength: false
-    length: 1
+    length: 0.1
     baseLength: 0
     sizeFrom: 196
     sizeTo: 172
@@ -49,8 +49,8 @@ shootType: {
     line: true
     strokeFrom: 12
     strokeTo: 12
-    lenFrom: 28
-    lenTo: 28
+    lenFrom: 20
+    lenTo: 20
     offsetX: 0
     offsetY: 0
     lightColor: adcff3
