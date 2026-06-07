@@ -37,7 +37,7 @@ shootType: {
     colorTo: adcff300
     particles: 1
     cone: 0
-    useRotation: true
+    useRotation: false
     followParent: true
     rotWithParent: true
     randLength: false
