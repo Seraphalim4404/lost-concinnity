@@ -1,0 +1,29 @@
+type: PowerTurret
+size: 6
+health: 8000
+armor: 30
+rotateSpeed: 1
+range: 800
+shake: 2
+trackingRange: 680
+predictTarget: false
+liquidCapacity: 500
+drawLiquidLight: true
+consumes: {
+  power: 60
+}
+shootCone: 1
+recoils: 2
+reload: 500
+shootType: {
+  speed: 0
+  lifetime: 1
+  spawnUnit: arma
+  angleOffset: 45
+}
+
+requirements: [
+  zeel/100
+]
+category: turret
+  
