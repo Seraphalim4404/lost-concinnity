@@ -14,8 +14,10 @@ consumes: {
 }
 shootCone: 1
 recoils: 2
+shoot: {
+  firstShotDelay: 360
+}
 reload: 720
-minWarmup: 0.5
 shootSound: railgunShoot
 soundPitchMin: 0.9
 soundPitchMax: 0.9
