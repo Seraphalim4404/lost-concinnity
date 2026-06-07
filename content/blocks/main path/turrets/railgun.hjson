@@ -56,7 +56,7 @@ shootType: {
     lightColor: adcff3
 
   }
-  pointEffectSpace: 20
+  pointEffectSpace: 28
   despawnEffect: none
 
   hitColor: 91aaff
