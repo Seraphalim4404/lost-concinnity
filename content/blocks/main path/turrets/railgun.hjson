@@ -19,7 +19,7 @@ shoot: {
 }
 reload: 720
 shootSound: railgunShoot
-shootSoundVolume: 3
+shootSoundVolume: 2.25
 soundPitchMin: 0.8
 soundPitchMax: 0.8
 chargeSound: railgunWarmUp
