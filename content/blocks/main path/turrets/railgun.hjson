@@ -17,18 +17,24 @@ recoils: 2
 reload: 300
 shootSound: railgunShoot
 shootType: {
-  type: BasicBulletType
-  scaleLife: false
-  height: 0
-  width: 0
-  hitSize: 16
+  type: RailBulletType
+  length: 680
   damage: 7200
-  speed: 160
-  lifetime: 4.25
-  drag: 0
+
+  collides: true
+  reflectable: true
+
+  pierce: false
+  pierceDamageFactory: 0
+  pierceBuilding: false
   
   shootEffect: none
   hitEffect: none
+  smokeEffect: none
+  pointEffect: {
+    type: ParticleEffect
+  }
+  pointEffectSpace: 20
   despawnEffect: none
 
   frontColor: 91aaff
