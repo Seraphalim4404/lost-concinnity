@@ -25,7 +25,7 @@ shootType: {
   reflectable: true
 
   pierce: false
-  pierceDamageFactor: 0
+  pierceDamageFactor: 1
   pierceBuilding: false
   
   shootEffect: none
@@ -37,7 +37,7 @@ shootType: {
     colorTo: adcff300
     particles: 1
     cone: 360
-    useRotation: false
+    useRotation: true
     followParent: true
     rotWithParent: true
     randLength: false
