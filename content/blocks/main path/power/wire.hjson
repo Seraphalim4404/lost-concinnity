@@ -3,3 +3,8 @@ health: 300
 hasPower: true
 conductivePower: true
 conveyorPlacement: true
+
+requirements: [
+  lycite/2
+]
+category: power
