@@ -1,4 +1,5 @@
 type: Wall
 health: 300
-  
+hasPower: true
+conductivePower: true
 conveyorPlacement: true
