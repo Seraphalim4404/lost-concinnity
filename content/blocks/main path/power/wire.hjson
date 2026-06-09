@@ -7,4 +7,5 @@ conveyorPlacement: true
 requirements: [
   lycite/2
 ]
+research: core-remnant
 category: power
