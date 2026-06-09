@@ -1,0 +1,4 @@
+type: Wall
+health: 300
+  
+conveyorPlacement: true
