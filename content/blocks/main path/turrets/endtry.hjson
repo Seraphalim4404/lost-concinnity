@@ -35,7 +35,7 @@ shoot: {
   ]
 }
 reload: 3.75
-minWaemup: 1
+minWarmup: 1
 shootWarmupSpeed: 0.05
 warmupMaintainTime: 300
 ammoTypes: {
