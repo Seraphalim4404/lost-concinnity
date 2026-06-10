@@ -35,9 +35,9 @@ shoot: {
   ]
 }
 reload: 3.75
-minWarmUp: 1
-shootWarmUpSpeed: 0.05
-warmUpMaintainTime: 300
+minWaemup: 1
+shootWarmupSpeed: 0.05
+warmupMaintainTime: 300
 ammoTypes: {
   tungsten-cube: {
     type: BasicBulletType
