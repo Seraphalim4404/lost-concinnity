@@ -35,7 +35,7 @@ shoot: {
   ]
 }
 reload: 3.75
-minWarmup: 0.6
+minWarmup: 0.95
 shootWarmupSpeed: 0.015
 warmupMaintainTime: 300
 ammoTypes: {
@@ -62,7 +62,7 @@ drawer: {
           mirror: false
           under: false
           layerOffset: 0
-          x: 6
+          x: 11
           y: 0
           moveX: 5.625
           moveY: 0
@@ -76,7 +76,7 @@ drawer: {
           mirror: false
           under: false
           layerOffset: 0
-          x: -6
+          x: -11
           y: 0
           moveX: -5.625
           moveY: 0
