@@ -124,6 +124,9 @@ drawers: [
           type: warmup
         }
       }
+    ]
+  }
+]
 requirements: [
   adhite/200
   salgo/450
