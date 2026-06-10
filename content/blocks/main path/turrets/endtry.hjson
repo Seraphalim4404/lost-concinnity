@@ -18,18 +18,18 @@ shoot: {
   dest: [
     {
       type: ShootBarrel
-      shots: 1
+      shots: 2
       barrels: [
-      -5, 0, 0
-      -9, 0, 0 
+      -4.25, -2, 0
+      -7.55, -4.4, 0 
       ]
     }
     {
       type: ShootBarrel
-      shots: 1
+      shots: 2
       barrels: [
-      5, 0, 0
-      9, 0, 0
+      4.25, -2, 0
+      7.55, -4.4, 0
       ]
     }
   ]
@@ -62,7 +62,7 @@ drawer: {
           mirror: false
           under: false
           layerOffset: 0
-          x: 11
+          x: 0
           y: 0
           moveX: 5.625
           moveY: 0
@@ -77,7 +77,7 @@ drawer: {
           mirror: false
           under: false
           layerOffset: 0
-          x: -11
+          x: 0
           y: 0
           moveX: -5.625
           moveY: 0
@@ -109,10 +109,10 @@ drawer: {
           under: true
           outline: false
           layerOffset: -0.25
-          x: 0
+          x: -7
           y: 0
           moveX: 0
-          moveY: -8.5
+          moveY: -4
           progress: {
             type: warmup
             interp: pow2In
