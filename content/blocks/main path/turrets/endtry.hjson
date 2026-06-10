@@ -15,8 +15,8 @@ shoot: {
   source: {
     type: ShootAlternate
     barrels: 2
-    spread: 18
-    mirror: false
+    spread: 0
+    mirror: true
   }
   dest: [
     {
@@ -33,8 +33,8 @@ shoot: {
       shots: 2
       shotDelay: 1.875
       barrels: [
-      10.25, -2, 0
-      18.55, -8.4, 0
+      -10.25, -2, 0
+      -18.55, -8.4, 0
       ]
     }
   ]
