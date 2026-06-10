@@ -34,7 +34,10 @@ shoot: {
     }
   ]
 }
-reload: 15
+reload: 3.75
+minWarmUp: 1
+shootWarmUpSpeed: 0.05
+warmUpMaintainTime: 300
 ammoTypes: {
   tungsten-cube: {
     type: BasicBulletType
@@ -46,7 +49,81 @@ ammoTypes: {
     lifetime: 60
   }
 }
-
+drawers: [
+  {
+    type: DrawTurret
+    basePrefix: structured-
+    parts: [
+      {
+        type: RegionPart
+        suffix: -right
+        mirror: false
+        under: false
+        layerOffset: 0
+        x: 0
+        y: 0
+        moveX: 5.625
+        moveY: 0
+        progress: {
+          type: warmup
+        }
+      }
+      {
+        type: RegionPart
+        suffix: -left
+        mirror: false
+        under: false
+        layerOffset: 0
+        x: 0
+        y: 0
+        moveX: -5.625
+        moveY: 0
+        progress: {
+          type: warmup
+        }
+      }
+      {
+        type: RegionPart
+        suffix: -structure
+        mirror: false
+        under: true
+        layerOffset: -0.25
+        x: 0
+        y: 0
+        moveX: 0
+        moveY: 2.25
+        progress: {
+          type: warmup
+        }
+      }
+      {
+        type: RegionPart
+        suffix: -structure
+        mirror: false
+        under: true
+        layerOffset: -0.25
+        x: 0
+        y: 0
+        moveX: 0
+        moveY: -4.75
+        progress: {
+          type: warmup
+        }
+      }
+      {
+        type: RegionPart
+        suffix: -under
+        mirror: false
+        under: true
+        layerOffset: -0.75
+        x: 0
+        y: 0
+        moveX: 0
+        moveY: 0
+        progress: {
+          type: warmup
+        }
+      }
 requirements: [
   adhite/200
   salgo/450
