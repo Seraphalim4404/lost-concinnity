@@ -62,7 +62,7 @@ drawer: {
           mirror: false
           under: false
           layerOffset: 0
-          x: 0
+          x: 6
           y: 0
           moveX: 5.625
           moveY: 0
@@ -76,7 +76,7 @@ drawer: {
           mirror: false
           under: false
           layerOffset: 0
-          x: 0
+          x: -6
           y: 0
           moveX: -5.625
           moveY: 0
