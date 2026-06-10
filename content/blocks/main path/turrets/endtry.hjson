@@ -68,6 +68,7 @@ drawer: {
           moveY: 0
           progress: {
             type: warmup
+            interp: pow2In
           }
         }
         {
@@ -82,6 +83,7 @@ drawer: {
           moveY: 0
           progress: {
             type: warmup
+            interp: pow2In
           }
         }
         {
@@ -89,6 +91,7 @@ drawer: {
           suffix: -structure
           mirror: false
           under: true
+          outline: false
           layerOffset: -0.25
           x: 0
           y: 0
@@ -96,6 +99,7 @@ drawer: {
           moveY: 2.25
           progress: {
             type: warmup
+            interp: pow2In
           }
         }
         {
@@ -103,13 +107,15 @@ drawer: {
           suffix: -structure
           mirror: false
           under: true
+          outline: false
           layerOffset: -0.25
           x: 0
           y: 0
           moveX: 0
-          moveY: -4.75
+          moveY: -8.5
           progress: {
             type: warmup
+            interp: pow2In
           }
         }
         {
@@ -117,6 +123,7 @@ drawer: {
           suffix: -under
           mirror: false
           under: true
+          outline: false
           layerOffset: -0.75
           x: 0
           y: 0
@@ -124,6 +131,7 @@ drawer: {
           moveY: 0
           progress: {
             type: warmup
+            interp: pow2In
           }
         }
       ]
