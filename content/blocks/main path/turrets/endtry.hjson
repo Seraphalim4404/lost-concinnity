@@ -14,26 +14,31 @@ shoot: {
   type: ShootMulti
   source: {
     type: ShootAlternate
+    barrels: 1
+    mirror: false
   }
   dest: [
     {
       type: ShootBarrel
       shots: 2
+      shotDelay: 1.875
       barrels: [
-      -4.25, -2, 0
-      -7.55, -4.4, 0 
+      4.25, -2, 0
+      11.55, -7.4, 0 
       ]
     }
     {
       type: ShootBarrel
       shots: 2
+      shotDelay: 1.875
       barrels: [
       4.25, -2, 0
-      7.55, -4.4, 0
+      11.55, -7.4, 0
       ]
     }
   ]
 }
+recoil: 0
 reload: 3.75
 minWarmup: 0.95
 shootWarmupSpeed: 0.015
