@@ -1,6 +1,6 @@
 type: PowerTurret
 squareSprite: false
-outline: false
+outlines: false
 size: 6
 health: 8000
 armor: 30
