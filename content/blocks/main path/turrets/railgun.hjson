@@ -1,6 +1,6 @@
 type: PowerTurret
 squareSprite: false
-outlines: false
+outline: false
 size: 5
 health: 8000
 armor: 30
@@ -56,10 +56,10 @@ shootType: {
     sizeTo: 172
     lifetime: 120
     line: true
-    strokeFrom: 7.2
-    strokeTo: 7.2
-    lenFrom: 10
-    lenTo: 10
+    strokeFrom: 10
+    strokeTo: 10
+    lenFrom: 7.2
+    lenTo: 7.2
     offsetX: 0
     offsetY: 0
     lightColor: adcff3
