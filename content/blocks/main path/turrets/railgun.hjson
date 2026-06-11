@@ -3,9 +3,9 @@ size: 6
 health: 8000
 armor: 30
 rotateSpeed: 1
-range: 800
+range: 680
 shake: 2
-trackingRange: 680
+trackingRange: 760
 predictTarget: false
 liquidCapacity: 500
 drawLiquidLight: true
@@ -25,7 +25,7 @@ soundPitchMax: 0.8
 chargeSound: railgunWarmUp
 shootType: {
   type: RailBulletType
-  length: 680
+  length: 700
   damage: 7200
 
   collides: true
