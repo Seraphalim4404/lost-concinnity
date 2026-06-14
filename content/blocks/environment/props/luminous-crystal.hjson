@@ -2,5 +2,5 @@ type: TallBlock
 variants: 2
 
 emitLight: true
-lightColor: c8def7)c
+lightColor: c8def77c
 lightRadius: 42
