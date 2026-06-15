@@ -1,6 +1,11 @@
 type: TallBlock
-variants: 2
+variants: 4
+rotationRand: 40
+shadowAlpha: 0
+
+breakable: false
+alwaysReplace: false
 
 emitLight: true
-lightColor: c8def77c
+lightColor: 8bc1ff7c
 lightRadius: 42
