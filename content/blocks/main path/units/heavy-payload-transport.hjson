@@ -1,9 +1,12 @@
 type: PayloadConveyor
 size: 5
+health: 1600
+
 moveTime: 120
 payloadLimit: 5
-category: units
+
 requirements: [
   lycite/300
   pure-lead/150
 ]
+category: units
