@@ -1,0 +1,9 @@
+type: Floor
+variants: 0
+isLiquid: true
+liquidDrop: unstable-water
+liquidMultiplier: 1
+status: corroded
+speedMultiplier: 0.7
+cacheLayer: water
+supportsOverlay: true
