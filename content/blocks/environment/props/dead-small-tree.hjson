@@ -1,4 +1,5 @@
 type: TreeBlock
+variants: 1
 shadowOffset: 3
 solid: true
 customShadow: true
