@@ -1,0 +1,17 @@
+type: TreeBlock
+shadowOffset: 3
+solid: true
+customShadow: true
+update: true
+drawTeamOverlay: false
+allowDerelictRepair: false
+alwaysReplace: false
+destructible: false
+clipSize: 200
+breakSound: plantBreak
+destroySound: plantBreak
+breakEffect: none
+destroyEffect: none
+
+  
+buildVisibility: editorOnly
