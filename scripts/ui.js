@@ -1,6 +1,6 @@
-loadIcon(64001, "resprite-crux") // \uFA01
-    loadIcon(64002, "resprite-malis") // \uFA02
-    loadIcon(64003, "resprite-shard") // \uFA03
+loadIcon(64001, "lost-resprite-crux") // \uFA01
+    loadIcon(64002, "lost-resprite-malis") // \uFA02
+    loadIcon(64003, "lost-resprite-shard") // \uFA03
     
 function loadIcon(id, regionName) {
     let fonts = Seq.with(Fonts.def, Fonts.outline);
