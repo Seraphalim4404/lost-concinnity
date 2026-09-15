@@ -35,6 +35,6 @@ function loadIcon(id, regionName) {
         f.getData().setGlyph(id, glyph);
     });
 
-Team.crux.emoji = “\uFA01”
+Team.crux.emoji = "\uFA01"
 
 };
