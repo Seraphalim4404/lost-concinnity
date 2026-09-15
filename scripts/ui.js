@@ -37,9 +37,9 @@ loadIcon(64001, "lost-resprite-crux") // \uFA01
             f.getData().setGlyph(id, glyph);
         });
 
-    Team.crux.emoji = \uFA01
-    Team.malis.emoji = \uFA02"
-    Team.sharded.emoji = \uFA03
+    Team.crux.emoji = "\uFA01"
+    Team.malis.emoji = "\uFA02"
+    Team.sharded.emoji = "\uFA03"
 
     };
 });
