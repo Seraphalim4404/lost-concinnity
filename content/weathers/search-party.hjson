@@ -7,11 +7,11 @@ drawNoise: false
 particleRegion: particle
 drawParticles: true
 opacityMultiplier: 0
-sizeMax: 23
-sizeMin: 9
+sizeMax: 33
+sizeMin: 14
 minAlpha: 0.3
 maxAlpha: 0.9
-density: 2100
+density: 1100
 baseSpeed: 0.2
 force: 0
 noisePath: noiseAlpha
