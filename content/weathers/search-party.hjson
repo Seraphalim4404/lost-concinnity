@@ -1,14 +1,14 @@
 type: ParticleWeather
 xspeed: 0.02
 yspeed: -0.07
-color: 544d5c
+color: bfAdf0
 noiseColor: a388b5
 drawNoise: false
 particleRegion: particle
 drawParticles: true
 opacityMultiplier: 0
-sizeMax: 9
-sizeMin: 3
+sizeMax: 23
+sizeMin: 9
 minAlpha: 0.3
 maxAlpha: 0.9
 density: 2100
