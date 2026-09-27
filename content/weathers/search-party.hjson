@@ -3,10 +3,10 @@ xspeed: 0.02
 yspeed: -0.07
 color: 544d5c
 noiseColor: a388b5
-drawNoise: true
+drawNoise: false
 particleRegion: particle
 drawParticles: true
-opacityMultiplier: 0.7
+opacityMultiplier: 0
 sizeMax: 9
 sizeMin: 3
 minAlpha: 0.3
